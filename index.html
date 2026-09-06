@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Spatial AI Trend</title>
+<style>
+:root{--bg:#0b1020;--panel:#121a2f;--panel2:#0f172a;--text:#edf3ff;--muted:#aab7d2;--line:#2a3854;--accent:#7dd3fc;--accent2:#c4b5fd}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(180deg,#090e1a,#0d1426 36%,#0a1020);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.app{display:grid;grid-template-columns:230px 1fr;min-height:100vh}.sidebar{position:sticky;top:0;height:100vh;padding:26px 18px;border-right:1px solid var(--line);background:#0c1325}.brand{font-weight:900;font-size:18px;margin-bottom:6px}.sub{font-size:12px;color:var(--muted);margin-bottom:24px}.navbtn{display:block;width:100%;text-align:left;border:1px solid var(--line);background:#121a2f;color:var(--text);padding:11px 12px;border-radius:12px;margin:8px 0;cursor:pointer}.navbtn:hover,.navbtn.active{border-color:var(--accent);background:#17233e}.navbtn small{display:block;color:var(--muted)}.navbtn.disabled{opacity:.45;cursor:default}.main{max-width:1050px;width:100%;padding:40px 28px 80px}.hero,.card,.box{border:1px solid var(--line);background:rgba(18,26,47,.9);border-radius:20px}.hero{padding:34px}.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:800}h1{font-size:clamp(34px,5vw,56px);line-height:1.05;margin:8px 0 12px}h2{font-size:28px;margin-top:38px}h3{margin:0 0 8px;font-size:21px}p{color:var(--muted)}.lead{font-size:18px}.card,.box{padding:22px;margin-top:16px}.meta{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}.tag{font-size:12px;font-weight:800;padding:4px 9px;border-radius:999px;background:#20304d;color:#d9ecff}.trend{margin-top:14px;padding:14px 16px;border-left:3px solid var(--accent2);background:var(--panel2);border-radius:0 12px 12px 0}.flow{margin-top:14px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);overflow:auto;white-space:nowrap;font-weight:750}.day{display:none}.day.active{display:block}.placeholder{padding:42px;text-align:center;border:1px dashed var(--line);border-radius:18px;color:var(--muted)}.archive{margin-top:28px;padding-top:18px;border-top:1px solid var(--line)}@media(max-width:800px){.app{grid-template-columns:1fr}.sidebar{position:relative;height:auto;border-right:0;border-bottom:1px solid var(--line)}.sidebar nav{display:grid;grid-template-columns:repeat(2,1fr);gap:6px}.navbtn{margin:0}.main{padding:24px 16px 60px}}
+</style>
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+  <div class="brand">Spatial AI Trend</div>
+  <div class="sub">Current week · Sep 6–11, 2026</div>
+  <nav>
+    <button class="navbtn active" data-target="sun">Sunday<small>Sep 6</small></button>
+    <button class="navbtn disabled" data-target="mon">Monday<small>Sep 7</small></button>
+    <button class="navbtn disabled" data-target="tue">Tuesday<small>Sep 8</small></button>
+    <button class="navbtn disabled" data-target="wed">Wednesday<small>Sep 9</small></button>
+    <button class="navbtn disabled" data-target="thu">Thursday<small>Sep 10</small></button>
+    <button class="navbtn disabled" data-target="fri">Friday<small>Sep 11</small></button>
+  </nav>
+  <div class="archive"><a href="archive/">Weekly archive →</a></div>
+</aside>
+
+<main class="main">
+<section id="sun" class="day active">
+  <div class="hero">
+    <div class="eyebrow">Sunday · September 6, 2026</div>
+    <h1>Hybrid spatial reasoning: explicit 3D state + frozen MLLMs</h1>
+    <p class="lead">Today’s main signal is architectural: <strong>3D spatial intelligence may not need to be learned entirely inside the MLLM.</strong> A compact external 3D scene representation can route different spatial questions to the right form of evidence.</p>
+  </div>
+
+  <h2>Notable paper</h2>
+  <article class="card">
+    <h3>GraFT: A Training-Free Framework for Spatial Reasoning in Multimodal Large Language Models via 3D Scene Graphs</h3>
+    <div class="meta"><span class="tag">arXiv</span><span class="tag">Sep 3, 2026</span><span class="tag">3D Spatial Reasoning</span><span class="tag">Training-Free</span></div>
+    <p><strong>Problem:</strong> Current MLLMs remain unreliable at precise metric geometry, egocentric↔allocentric transformation, and fine-grained spatial grounding.</p>
+    <p><strong>Approach:</strong> GraFT keeps the MLLM frozen and uses a compact <strong>3D scene graph</strong> as persistent spatial state. Queries are routed to symbolic geometric tools for exact metric questions, bird’s-eye-view rendering for allocentric layout, or geometry-guided egocentric frame retrieval for appearance grounding.</p>
+    <p><strong>Why it matters:</strong> Some spatial failures may be better solved by giving a general MLLM the right structured evidence and tools instead of forcing the backbone to internalize every form of 3D reasoning.</p>
+    <p>The reported results show substantial gains over frozen MLLM baselines on VSI-Bench and improvements on ScanQA from geometry-guided evidence selection.</p>
+    <div class="trend"><strong>Main trend:</strong><br>frozen MLLM → explicit 3D world state → task-specific spatial evidence → tool-assisted reasoning</div>
+    <p><a href="https://arxiv.org/abs/2609.03892" target="_blank" rel="noopener noreferrer">Open GraFT on arXiv →</a></p>
+  </article>
+
+  <h2>Trend synthesis</h2>
+  <div class="box"><strong>Explicit world state is returning.</strong><p>Scene graphs, map-like representations, symbolic geometry, and viewpoint retrieval can complement pretrained multimodal reasoning instead of being replaced by it.</p></div>
+  <div class="box"><strong>Hybrid systems are becoming credible.</strong><p>Exact geometry can be delegated to symbolic tools, while the MLLM handles semantic and appearance reasoning.</p></div>
+
+  <h2>What changed?</h2>
+  <p>The previous research thread emphasized <strong>action-sufficient learned representations</strong>. Today’s direction adds a complementary route: maintain part of the world state explicitly and let the MLLM query it as needed.</p>
+  <div class="flow">pixels / video → 3D scene graph → geometry / BEV / egocentric evidence → frozen MLLM → reasoning / planning</div>
+
+  <h2>Key takeaway</h2>
+  <div class="box"><strong>Likely future architecture:</strong><br><br>Learned latent representations for perception/action + explicit spatial state for metric reasoning, memory, verification, and planning.</div>
+</section>
+
+<section id="mon" class="day"><div class="placeholder">Monday report will appear here when meaningful new research is found.</div></section>
+<section id="tue" class="day"><div class="placeholder">Tuesday report will appear here when meaningful new research is found.</div></section>
+<section id="wed" class="day"><div class="placeholder">Wednesday report will appear here when meaningful new research is found.</div></section>
+<section id="thu" class="day"><div class="placeholder">Thursday report will appear here when meaningful new research is found.</div></section>
+<section id="fri" class="day"><div class="placeholder">Friday report will appear here when meaningful new research is found.</div></section>
+</main>
+</div>
+<script>
+const buttons=[...document.querySelectorAll('.navbtn')];
+const days=[...document.querySelectorAll('.day')];
+buttons.forEach(btn=>btn.addEventListener('click',()=>{
+  if(btn.classList.contains('disabled')) return;
+  buttons.forEach(b=>b.classList.remove('active'));
+  days.forEach(d=>d.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById(btn.dataset.target).classList.add('active');
+}));
+</script>
+</body>
+</html>
