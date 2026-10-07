@@ -1,4 +1,4 @@
 window.RESEARCH_OS_CONFIG=Object.freeze({
-  // Public URL of the Access-protected private workspace. No secret belongs here.
-  privateWorkspaceUrl:""
+  // Access-protected private Research OS URL. No secrets are stored here.
+  privateWorkspaceUrl:"https://spatial-ai-trend-private.jhyh1110.workers.dev/"
 });
