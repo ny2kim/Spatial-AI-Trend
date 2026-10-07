@@ -92,14 +92,21 @@ function renderMap(){
  svg.addEventListener('pointermove',e=>{if(!drag)return;const rect=svg.getBoundingClientRect();svg.viewBox.baseVal.x=drag.vx-(e.clientX-drag.x)*drag.w/rect.width;svg.viewBox.baseVal.y=drag.vy-(e.clientY-drag.y)*drag.h/rect.height});
  svg.addEventListener('pointerup',()=>drag=null);svg.addEventListener('pointercancel',()=>drag=null);
 }
-function arxivIdFromPaper(p){
- const vals=[p.arxiv_id,p.arxivId,p.id,p.url,p.paper_url].filter(Boolean).map(String);
- for(const v of vals){const m=v.match(/(?:arxiv:)?(\d{4}\.\d{4,5})(?:v\d+)?/i);if(m)return m[1]}
- return ''
+function paperUniversalId(p){
+ const vals=[p.universal_paper_id,p.paper_id,p.arxiv_id,p.arxivId,p.id,p.url,p.paper_url,p.source_url,p.alpha_url].filter(Boolean).map(String);
+ for(const v of vals){
+   const m=v.match(/(?:arxiv:)?(\d{4}\.\d{4,5})(?:v\d+)?/i);
+   if(m)return m[1];
+ }
+ const raw=p.universal_paper_id||p.paper_id||p.id||'';
+ return String(raw).trim();
 }
 function normalizedLibraryRow(p,folders){
- const id=arxivIdFromPaper(p),url=id?'https://arxiv.org/abs/'+id:(p.url||p.paper_url||''),alpha=id?'https://www.alphaxiv.org/abs/'+id:(p.alpha_url||'');
- return {...p,_id:id||p.id||p.title,_url:url,_alpha:alpha,folders:[...new Set(folders)],publication_date:p.publication_date||p.published_at||p.date||''}
+ const uid=paperUniversalId(p);
+ const isArxiv=/^\d{4}\.\d{4,5}(?:v\d+)?$/i.test(uid);
+ const url=isArxiv?'https://arxiv.org/abs/'+uid:(p.url||p.paper_url||p.source_url||'');
+ const alpha=p.alpha_url||p.alphaxiv_url||(uid?'https://www.alphaxiv.org/abs/'+encodeURIComponent(uid):'');
+ return {...p,_id:uid||p.title,_url:url,_alpha:alpha,folders:[...new Set(folders)],publication_date:p.publication_date||p.published_at||p.date||''}
 }
 function statusOf(p){return ['Completed','Reading','Want to read'].find(x=>p.folders.includes(x))||''}
 function customFoldersOf(p){return p.folders.filter(x=>!['Want to read','Reading','Completed'].includes(x))}
@@ -114,7 +121,9 @@ function renderLibrary(){
    const chips=custom.length?custom.map(x=>'<span class="tag folder-chip">'+esc(x)+' <button class="chip-x" data-remove-folder="'+esc(x)+'" data-key="'+esc(paperKey)+'" title="Remove from folder">×</button></span>').join(''):'<span class="muted">—</span>';
    const options=LIBRARY_FOLDERS.filter(x=>!['Want to read','Reading','Completed'].includes(x.name)&&!custom.includes(x.name)).map(x=>'<option value="'+esc(x.name)+'">'+esc(x.name)+'</option>').join('');
    const add=options?'<div class="folder-add"><select class="folder-select" data-key="'+esc(paperKey)+'"><option value="">Add folder…</option>'+options+'</select><button class="btn add-folder-btn" data-key="'+esc(paperKey)+'">Add</button></div>':'';
-   return '<tr><td><input class="pick" type="checkbox" data-url="'+esc(p._url)+'" data-alpha="'+esc(p._alpha)+'"></td><td><b class="paper-title">'+esc(p.title||p._id)+'</b><div class="muted">'+esc(p.publication_date||'')+'</div></td><td>'+statusSelect+'</td><td>'+chips+add+'</td><td><div class="toolbar"><a class="btn primary" target="_blank" rel="noopener noreferrer" href="'+esc(p._alpha||p._url||'#')+'">◈ alphaXiv / Chat</a><a class="btn" target="_blank" rel="noopener noreferrer" href="'+esc(p._url||'#')+'">Paper</a></div></td></tr>'
+   const alphaAction=p._alpha?'<a class="btn primary" target="_blank" rel="noopener noreferrer" href="'+esc(p._alpha)+'">◈ alphaXiv / Chat</a>':'<button class="btn" disabled title="No alphaXiv paper ID available">alphaXiv unavailable</button>';
+   const paperAction=p._url?'<a class="btn" target="_blank" rel="noopener noreferrer" href="'+esc(p._url)+'">Paper</a>':'';
+   return '<tr><td><input class="pick" type="checkbox" data-url="'+esc(p._url)+'" data-alpha="'+esc(p._alpha)+'"></td><td><b class="paper-title">'+esc(p.title||p._id)+'</b><div class="muted">'+esc(p.publication_date||'')+'</div></td><td>'+statusSelect+'</td><td>'+chips+add+'</td><td><div class="toolbar">'+alphaAction+paperAction+'</div></td></tr>'
  }).join('');
  bindLibraryRowActions()
 }
@@ -142,9 +151,13 @@ $('#notebook-selected').onclick=async()=>{
  if(!win)toast('NotebookLM popup was blocked. Use alphaXiv / Chat instead.')
 };
 $('#alphaxiv-selected').onclick=()=>{
- const links=$$('.pick:checked').map(x=>x.dataset.alpha).filter(Boolean);if(!links.length)return toast('Select at least one paper.');
+ const picks=$('.pick:checked');if(!picks.length)return toast('Select at least one paper.');
+ const links=picks.map(x=>x.dataset.alpha).filter(Boolean);
+ if(!links.length)return toast('Could not resolve an alphaXiv link for the selected paper(s). Refresh Library and try again.');
  if(links.length===1){window.open(links[0],'_blank','noopener');return}
- const first=window.open(links[0],'_blank','noopener');navigator.clipboard?.writeText(links.join('\n')).catch(()=>{});toast('Opened the first alphaXiv paper; all '+links.length+' alphaXiv links were copied for the rest.');if(!first)toast('Popup blocked. Use each row’s alphaXiv / Chat button.')
+ const first=window.open(links[0],'_blank','noopener');navigator.clipboard?.writeText(links.join('\n')).catch(()=>{});
+ toast('Opened the first alphaXiv paper; copied '+links.length+' alphaXiv links.');
+ if(!first)toast('Popup blocked. Use each row’s alphaXiv / Chat button.')
 };
 async function processIncoming(){
  const q=new URLSearchParams(location.search),a=q.get('action'),paper=q.get('paper');if(!a||!paper)return;
