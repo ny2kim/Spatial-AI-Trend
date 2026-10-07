@@ -22,8 +22,8 @@ function toast(m){const t=$('#toast');t.textContent=m;t.style.display='block';cl
 async function api(path,opt={}){const r=await fetch(path,{credentials:'include',headers:{'Content-Type':'application/json',...(opt.headers||{})},...opt});const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.error||('HTTP '+r.status));return j}
 async function getPrivate(key){try{return (await api('/api/private-data?key='+encodeURIComponent(key))).value??[]}catch{return []}}
 async function putPrivate(key,value){return api('/api/private-data?key='+encodeURIComponent(key),{method:'PUT',body:JSON.stringify({value})})}
-function show(id){$$('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.v===id));$$('.view').forEach(v=>v.classList.toggle('active',v.id===id));if(id==='library')loadLibrary()}
-$$('.nav button').forEach(b=>b.onclick=()=>show(b.dataset.v));
+function show(id){$('.nav button[data-v]').forEach(b=>b.classList.toggle('active',b.dataset.v===id));$('.view').forEach(v=>v.classList.toggle('active',v.id===id));if(id==='library')loadLibrary()}
+$('.nav button[data-v]').forEach(b=>b.onclick=()=>show(b.dataset.v));
 
 async function loadTopics(){
  let arr=await getPrivate('topics');
