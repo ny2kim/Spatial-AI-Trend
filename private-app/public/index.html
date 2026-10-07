@@ -19,9 +19,40 @@ async function api(path,opt={}){const r=await fetch(path,{credentials:'include',
 async function processIncoming(){const q=new URLSearchParams(location.search),a=q.get('action'),paper=q.get('paper');if(a==='save'&&paper){try{const folder=q.get('folder')||'Want to read';await api('/api/save',{method:'POST',body:JSON.stringify({paper,folderName:folder})});toast('Saved to alphaXiv → '+folder);history.replaceState({},'',location.pathname);loadLibrary()}catch(e){toast('Save failed: '+e.message)}}if(a==='track'&&paper){const topic=q.get('topic')||'Unsorted';try{let data=await getPrivate('topics');let arr=Array.isArray(data)?data:[];let t=arr.find(x=>x.name===topic);if(!t){t={name:topic,status:'candidate',papers:[],createdAt:new Date().toISOString()};arr.push(t)}if(!t.papers.includes(paper))t.papers.push(paper);await putPrivate('topics',arr);toast('Tracked privately → '+topic);history.replaceState({},'',location.pathname);loadTopics()}catch(e){toast('Track failed: '+e.message)}}}
 async function loadLibrary(){try{const j=await api('/api/library'),folders=j.folders||[],map=new Map();folders.forEach(f=>(f.papers||[]).forEach(p=>{const id=p.id||p.arxiv_id||p.url||p.title;if(!map.has(id))map.set(id,{...p,folders:[]});map.get(id).folders.push(f.name)}));const rows=[...map.values()];$('#library-empty').style.display=rows.length?'none':'block';$('#library-body').innerHTML=rows.map(p=>{const id=p.arxiv_id||p.id||'',url=p.url||(/^[0-9]{4}\.[0-9]+/.test(id)?'https://arxiv.org/abs/'+id:''),alpha=/arxiv\.org/.test(url)?url.replace('arxiv.org','www.alphaxiv.org'):url;return '<tr><td><input class="pick" type="checkbox" data-url="'+esc(url)+'"></td><td><b style="color:#eef4ff">'+esc(p.title||id)+'</b></td><td>'+p.folders.map(x=>'<span class="tag">'+esc(x)+'</span>').join('')+'</td><td><a class="btn" target="_blank" rel="noopener noreferrer" href="'+esc(alpha||'#')+'">Analyze</a></td></tr>'}).join('')}catch(e){$('#library-empty').style.display='block';$('#library-empty').textContent='Library unavailable: '+e.message}}
 async function notebookSelected(){const urls=$$('.pick:checked').map(x=>x.dataset.url).filter(Boolean);if(!urls.length)return toast('Select at least one paper.');try{await navigator.clipboard.writeText(urls.join('\n'));toast(urls.length+' paper URLs copied. Paste them into NotebookLM Add sources.')}catch(e){toast('Copy failed; paste selected URLs manually.')}window.open('https://notebooklm.google.com/','_blank','noopener')}
+const STARTER_TOPICS=[
+{name:'VLM / LVLM',status:'established',papers:[],parent:null,subtopics:['Multimodal ICL','Spatial Reasoning','Visual Memory','Multi-view VLM','Recurrent VLM']},
+{name:'Multimodal ICL',status:'established',papers:[],parent:'VLM / LVLM',subtopics:['Demo selection','Visual usage','Counterfactual ICL','Multi-turn ICL']},
+{name:'Spatial Reasoning',status:'established',papers:[],parent:'VLM / LVLM',subtopics:['Metric reasoning','3D grounding','Geometry tools']},
+{name:'Visual Memory',status:'emerging',papers:[],parent:'VLM / LVLM',subtopics:['Persistent visual state','Episodic memory','Retrieval memory']},
+{name:'Multi-view VLM',status:'emerging',papers:[],parent:'VLM / LVLM',subtopics:['Cross-view consistency','View selection','Patient-level aggregation']},
+{name:'Agentic VLM',status:'emerging',papers:[],parent:'VLM / LVLM',subtopics:['Tool use','Visual search','Memory','Dynamic routing']},
+{name:'VLA / Embodied',status:'established',papers:[],parent:null,subtopics:['Robot policies','Embodied reasoning','Runtime safety']},
+{name:'World Models / Physical AI',status:'established',papers:[],parent:null,subtopics:['World-action models','Video prediction','Dynamics modeling']},
+{name:'Geospatial AI',status:'established',papers:[],parent:null,subtopics:['Remote sensing VLM','Visual search','Spatial grounding']},
+{name:'Agentic Models / AI Agents',status:'established',papers:[],parent:null,subtopics:['Agent runtimes','Tool use','Approval / gating','Control planes']},
+{name:'Decision Models / System-One',status:'emerging',papers:[],parent:'Agentic Models / AI Agents',subtopics:['Typed decisions','Model routing','Skill routing','Approval / gating']},
+{name:'Generative Modeling',status:'established',papers:[],parent:null,subtopics:['Diffusion','Flow matching','Coverage / diversity']},
+{name:'Recurrent VLM',status:'candidate',papers:['https://arxiv.org/abs/2609.38426'],parent:'VLM / LVLM',subtopics:['Model loop','Module loop','Test-time compute']},
+{name:'World-Action Models',status:'emerging',papers:['https://arxiv.org/abs/2610.02054'],parent:'World Models / Physical AI',subtopics:['Unified reasoning/world/action']},
+{name:'Visual Search',status:'emerging',papers:['https://arxiv.org/abs/2512.02715'],parent:'Geospatial AI',subtopics:['Progressive search','Reward-guided exploration']}
+];
 async function getPrivate(key){try{return (await api('/api/private-data?key='+encodeURIComponent(key))).value??[]}catch(e){return []}}
+async function bootstrapTopics(){
+ let arr=await getPrivate('topics');
+ if(Array.isArray(arr)&&arr.length)return arr;
+ const seeded=STARTER_TOPICS.map(x=>({...x,createdAt:new Date().toISOString(),seeded:true}));
+ try{await putPrivate('topics',seeded);return seeded}catch(e){toast('Could not initialize topic taxonomy: '+e.message);return seeded}
+}
 async function putPrivate(key,value){return api('/api/private-data?key='+encodeURIComponent(key),{method:'PUT',body:JSON.stringify({value})})}
-async function loadTopics(){const arr=await getPrivate('topics');$('#topics-empty').style.display=arr.length?'none':'block';$('#topics').innerHTML=arr.map(t=>'<div class="card"><div class="status-'+esc(t.status||'candidate')+'">'+esc(t.status||'candidate')+'</div><h2>'+esc(t.name)+'</h2><p>'+((t.papers||[]).length)+' tracked papers</p></div>').join('');renderMap(arr)}
+async function loadTopics(){
+ const arr=await bootstrapTopics();
+ $('#topics-empty').style.display=arr.length?'none':'block';
+ $('#topics').innerHTML=arr.map(t=>{
+   const subs=(t.subtopics||[]).slice(0,4).map(s=>'<span class="tag">'+esc(s)+'</span>').join('');
+   return '<div class="card"><div class="status-'+esc(t.status||'candidate')+'">'+esc(t.status||'candidate')+'</div><h2>'+esc(t.name)+'</h2><p>'+((t.papers||[]).length)+' tracked papers</p><div>'+subs+'</div>'+(t.parent?'<p class="muted">Parent: '+esc(t.parent)+'</p>':'')+'</div>'
+ }).join('');
+ renderMap(arr)
+}
 function renderMap(arr){const box=$('#topic-map');if(!arr.length){box.innerHTML='<div class="empty">Topic nodes appear here after you track papers.</div>';return}box.innerHTML='<svg viewBox="0 0 800 330" style="width:100%;height:330px">'+arr.map((t,i)=>{const x=90+(i%6)*125,y=90+Math.floor(i/6)*120,c=t.status==='established'?'#7dd3fc':t.status==='emerging'?'#86efac':'#fde68a';return '<g transform="translate('+x+','+y+')"><circle r="42" fill="#18243c" stroke="'+c+'" stroke-width="3"/><text text-anchor="middle" fill="#eef4ff" font-size="11">'+esc(t.name.slice(0,18))+'</text></g>'}).join('')+'</svg>'}
 async function loadIdeas(){const arr=await getPrivate('ideas');$('#idea-list').innerHTML=arr.map(x=>'<div class="card"><h2>'+esc(x.title)+'</h2><p>'+esc(x.body)+'</p></div>').join('')}
 async function addIdea(){const title=$('#idea-title').value.trim(),body=$('#idea-body').value.trim();if(!title)return toast('Add a title.');let arr=await getPrivate('ideas');arr=Array.isArray(arr)?arr:[];arr.unshift({title,body,createdAt:new Date().toISOString()});await putPrivate('ideas',arr);$('#idea-title').value='';$('#idea-body').value='';toast('Private idea saved.');loadIdeas()}
