@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
+  "updated_at": "2026-10-07",
+  "papers": [
+    {
+      "id": "arxiv:2609.38426",
+      "title": "LoopVL — Recurrent Visual Intelligence",
+      "type": "Research Paper",
+      "date": "2026-09-29",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2609.38426",
+      "pdf_url": "https://arxiv.org/pdf/2609.38426.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Recurrent VLM"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "Recurrent computation",
+        "Test-time compute"
+      ],
+      "discovered_on": "2026-10-04"
+    },
+    {
+      "id": "arxiv:2610.02054",
+      "title": "UniWAM — Unified World-Action Model",
+      "type": "Research Paper",
+      "date": "2026-10-01",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.02054",
+      "pdf_url": "https://arxiv.org/pdf/2610.02054.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "Generative Modeling",
+        "World-Action Models"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "Generative Modeling"
+      ],
+      "discovered_on": "2026-10-04"
+    },
+    {
+      "id": "arxiv:2609.38853",
+      "title": "Visualizing Distribution Coverage in Generative Diffusion Models",
+      "type": "Research Paper",
+      "date": "2026-09-30",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2609.38853",
+      "pdf_url": "https://arxiv.org/pdf/2609.38853.pdf",
+      "topics": [
+        "Generative Modeling"
+      ],
+      "tags": [
+        "Generative Modeling",
+        "Diffusion",
+        "Distribution coverage"
+      ],
+      "discovered_on": "2026-10-04"
+    },
+    {
+      "id": "cvpr2026:geovis",
+      "title": "GeoViS — Geospatially Rewarded Visual Search for Remote Sensing Grounding",
+      "type": "High-impact recent paper",
+      "date": "2026-06-01",
+      "year": 2026,
+      "venue": "CVPR 2026",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_GeoViS_Geospatially_Rewarded_Visual_Search_for_Remote_Sensing_Visual_Grounding_CVPR_2026_paper.html",
+      "pdf_url": "",
+      "topics": [
+        "Geospatial AI",
+        "VLM / LVLM",
+        "Agentic VLM",
+        "Visual Search"
+      ],
+      "tags": [
+        "Geospatial AI",
+        "VLM / LVLM",
+        "Agentic Models",
+        "CVPR 2026"
+      ],
+      "discovered_on": "2026-10-04"
+    }
+  ]
+}
