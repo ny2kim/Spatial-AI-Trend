@@ -110,7 +110,7 @@ function renderLibrary(){
  $('#library-empty').style.display=rows.length?'none':'block';
  $('#library-body').innerHTML=rows.map((p,i)=>{
    const st=statusOf(p),custom=customFoldersOf(p),paperKey=p._url||p._id;
-   const statusSelect='<select class="status-select" data-key="'+esc(paperKey)+'">'+['Want to read','Reading','Completed'].map(x=>'<option '+(x===st?'selected':'')+'>'+x+'</option>').join('')+'</select>';
+   const statusSelect='<select class="status-select" data-key="'+esc(paperKey)+'">'+(!st?'<option value="" selected disabled>No status</option>':'')+['Want to read','Reading','Completed'].map(x=>'<option '+(x===st?'selected':'')+'>'+x+'</option>').join('')+'</select>';
    const chips=custom.length?custom.map(x=>'<span class="tag folder-chip">'+esc(x)+' <button class="chip-x" data-remove-folder="'+esc(x)+'" data-key="'+esc(paperKey)+'" title="Remove from folder">×</button></span>').join(''):'<span class="muted">—</span>';
    const options=LIBRARY_FOLDERS.filter(x=>!['Want to read','Reading','Completed'].includes(x.name)&&!custom.includes(x.name)).map(x=>'<option value="'+esc(x.name)+'">'+esc(x.name)+'</option>').join('');
    const add=options?'<div class="folder-add"><select class="folder-select" data-key="'+esc(paperKey)+'"><option value="">Add folder…</option>'+options+'</select><button class="btn add-folder-btn" data-key="'+esc(paperKey)+'">Add</button></div>':'';
