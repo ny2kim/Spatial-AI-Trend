@@ -11,7 +11,7 @@
 <section id="ideas" class="view"><h1>Ideas Lab</h1><p>Private research questions and experiments are stored in the protected data store, never in the public Pages HTML.</p><div class="card"><input id="idea-title" placeholder="Idea title"><textarea id="idea-body" rows="5" placeholder="Why now? Gap? Possible experiment?"></textarea><button class="btn primary" id="add-idea">Add private idea</button></div><div id="idea-list"></div></section>
 </main></div><div class="toast" id="toast"></div>
 <script>
-const $=s=>document.querySelector(s),$=s=>[...document.querySelectorAll(s)];
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 let PUBLIC_CORPUS=[], SELECTED_TOPIC=null;
 function toast(m){const t=$('#toast');t.textContent=m;t.style.display='block';setTimeout(()=>t.style.display='none',3200)}
 if(location.hostname.endsWith('github.io')){$('#app').style.display='none';$('#public-block').style.display='block'}else{boot()}
@@ -103,7 +103,7 @@ async function loadTopics(){
    const delta=m.prior?Math.round((m.recent-m.prior)/m.prior*100):null;
    return '<div class="card topic-card" data-topic-index="'+i+'"><div class="status-'+esc(t.status||'candidate')+'">'+esc(t.status||'candidate')+'</div><h2>'+esc(t.name)+'</h2><p><b style="color:#eef4ff">'+m.ps.length+'</b> tracked corpus papers · '+m.y26+' in 2026</p><p class="muted">Last 90d: '+m.recent+' · Prior 90d: '+m.prior+(delta===null?'':' · '+(delta>=0?'+':'')+delta+'%')+'</p><div>'+subs+'</div>'+(t.parent?'<p class="muted">Parent: '+esc(t.parent)+'</p>':'')+'</div>'
  }).join('');
- $('.topic-card').forEach(c=>c.onclick=()=>{const t=arr[Number(c.dataset.topicIndex)];renderTopicDetail(t.name,t)});
+ $$('.topic-card').forEach(c=>c.onclick=()=>{const t=arr[Number(c.dataset.topicIndex)];renderTopicDetail(t.name,t)});
  renderMap(arr);
  if(arr.length){const target=arr.find(t=>t.name===SELECTED_TOPIC)||arr[0];renderTopicDetail(target.name,target)}
 }
