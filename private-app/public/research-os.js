@@ -150,7 +150,7 @@ function bindLibraryRowActions(){
 async function loadLibrary(){
  try{
    const j=await api('/api/library'),folders=j.folders||[],map=new Map();LIBRARY_FOLDERS=folders.map(f=>({name:f.name,id:f.folder_id||f.id,type:f.type}));
-   folders.forEach(f=>(f.papers||[]).forEach(p=>{const id=arxivIdFromPaper(p)||p.id||p.url||p.title;if(!map.has(id))map.set(id,{paper:p,folders:[]});map.get(id).folders.push(f.name)}));
+   folders.forEach(f=>(f.papers||[]).forEach(p=>{const id=paperUniversalId(p)||p.id||p.url||p.title;if(!map.has(id))map.set(id,{paper:p,folders:[]});map.get(id).folders.push(f.name)}));
    LIBRARY_ROWS=[...map.values()].map(x=>normalizedLibraryRow(x.paper,x.folders));
    const custom=LIBRARY_FOLDERS.filter(x=>!['Want to read','Reading','Completed'].includes(x.name));
    $('#folder-filter').innerHTML='<option value="">All folders</option>'+custom.map(x=>'<option>'+esc(x.name)+'</option>').join('');
