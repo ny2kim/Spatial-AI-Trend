@@ -86,6 +86,172 @@
         "CVPR 2026"
       ],
       "discovered_on": "2026-10-04"
+    },
+    {
+      "id": "arxiv:2610.06306",
+      "title": "Inspect Robots: Evaluating the Capabilities and Safety of Embodied AI",
+      "type": "Research Paper",
+      "date": "2026-10-05",
+      "year": 2026,
+      "venue": "SPAIS Workshop at CoRL 2026 (submitted)",
+      "source_url": "https://arxiv.org/abs/2610.06306",
+      "pdf_url": "https://arxiv.org/pdf/2610.06306.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "Embodied AI safety",
+        "Evaluation"
+      ],
+      "discovered_on": "2026-10-06"
+    },
+    {
+      "id": "arxiv:2610.05818",
+      "title": "What the Guard Misses, the Robot Executes: Implied Harm in VLA Instructions",
+      "type": "Research Paper",
+      "date": "2026-10-05",
+      "year": 2026,
+      "venue": "SPAIS Workshop at CoRL 2026 (under review)",
+      "source_url": "https://arxiv.org/abs/2610.05818",
+      "pdf_url": "https://arxiv.org/pdf/2610.05818.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "Safety",
+        "Guardrails"
+      ],
+      "discovered_on": "2026-10-06"
+    },
+    {
+      "id": "arxiv:2610.05731",
+      "title": "T-JEPA: A Temporal Joint-Embedding Predictive Architecture for Learning Better Remote Sensing Representations",
+      "type": "Research Paper",
+      "date": "2026-10-05",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.05731",
+      "pdf_url": "https://arxiv.org/pdf/2610.05731.pdf",
+      "topics": [
+        "Geospatial AI",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "Geospatial AI",
+        "Remote sensing",
+        "Temporal predictive learning"
+      ],
+      "discovered_on": "2026-10-06"
+    },
+    {
+      "id": "arxiv:2610.06844",
+      "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
+      "type": "Research Paper",
+      "date": "2026-10-05",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.06844",
+      "pdf_url": "https://arxiv.org/pdf/2610.06844.pdf",
+      "topics": [
+        "Generative Modeling",
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Generative Modeling",
+        "MM-DiT",
+        "Interpretability"
+      ],
+      "discovered_on": "2026-10-06"
+    },
+    {
+      "id": "arxiv:2610.08791",
+      "title": "World Models' Last Exam in Physics",
+      "type": "Research Paper",
+      "date": "2026-10-06",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.08791",
+      "pdf_url": "https://arxiv.org/pdf/2610.08791.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "Generative Modeling"
+      ],
+      "tags": [
+        "World Models / Physical AI",
+        "Video generation",
+        "Physics benchmark"
+      ],
+      "discovered_on": "2026-10-07"
+    },
+    {
+      "id": "arxiv:2610.08780",
+      "title": "DepthWorld: 3D World Model for Robot Manipulation",
+      "type": "Research Paper",
+      "date": "2026-10-06",
+      "year": 2026,
+      "venue": "CoRL 2026",
+      "source_url": "https://arxiv.org/abs/2610.08780",
+      "pdf_url": "https://arxiv.org/pdf/2610.08780.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "VLA / Embodied",
+        "Generative Modeling"
+      ],
+      "tags": [
+        "World Models / Physical AI",
+        "VLA / Embodied",
+        "3D geometry",
+        "CoRL 2026"
+      ],
+      "discovered_on": "2026-10-07"
+    },
+    {
+      "id": "arxiv:2610.08539",
+      "title": "RSJEV: Discriminative Remote Sensing Scene Classification with Multimodal Large Language Models",
+      "type": "Research Paper",
+      "date": "2026-10-06",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.08539",
+      "pdf_url": "https://arxiv.org/pdf/2610.08539.pdf",
+      "topics": [
+        "Geospatial AI",
+        "VLM / LVLM",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Geospatial AI",
+        "VLM / LVLM",
+        "One-pass decision",
+        "0.8B"
+      ],
+      "discovered_on": "2026-10-07"
+    },
+    {
+      "id": "arxiv:2610.08150",
+      "title": "ViDAL: A Visual Dynamics-Grounded Action Latent Space for Vision-Language-Action Models",
+      "type": "Research Paper",
+      "date": "2026-10-06",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.08150",
+      "pdf_url": "https://arxiv.org/pdf/2610.08150.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "Generative Modeling"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "Visual dynamics",
+        "Action latent",
+        "Flow matching"
+      ],
+      "discovered_on": "2026-10-07"
     }
   ]
 }
