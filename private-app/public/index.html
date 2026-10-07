@@ -12,19 +12,14 @@
   <div class="brand">Research OS</div>
   <div class="private">🔒 Private workspace</div>
   <nav class="nav">
-    <button class="active" data-v="today">◉ Today</button>
-    <button data-v="radar">◎ Topic Radar</button>
+    <a class="navlink" href="https://ny2kim.github.io/Spatial-AI-Trend/" target="_blank" rel="noopener noreferrer">← Public Today</a>
+    <button class="active" data-v="radar">◎ Topic Radar</button>
     <button data-v="map">⌘ Topic Map</button>
     <button data-v="library">▤ Library</button>
   </nav>
 </aside>
 <main class="main">
-  <section id="today" class="view active">
-    <h1>Today</h1>
-    <p>Same public Sunday–Friday research dashboard inside your private workspace.</p>
-    <iframe class="today-frame" src="https://ny2kim.github.io/Spatial-AI-Trend/" title="Spatial AI Trend Today"></iframe>
-  </section>
-  <section id="radar" class="view">
+  <section id="radar" class="view active">
     <h1>Topic Radar</h1>
     <p>Trend metrics use this Research OS tracked paper corpus.</p>
     <div id="topics" class="grid"></div>
@@ -40,7 +35,7 @@
     <p>Your alphaXiv reading state and folders.</p>
     <div class="toolbar">
       <button class="btn" id="refresh-library">Refresh</button>
-      <button class="btn primary" id="notebook-selected">✦ Selected → NotebookLM</button>
+      <button class="btn primary" id="notebook-selected">✦ Copy selected sources + Open NotebookLM</button>
     </div>
     <div class="card library-card">
       <table><thead><tr><th></th><th>Paper</th><th>Status / folders</th><th>Actions</th></tr></thead><tbody id="library-body"></tbody></table>
