@@ -66,6 +66,12 @@ export default {
       if (url.pathname === "/api/private-data" && (request.method === "GET" || request.method === "PUT")) {
         return await privateData(request, env, url);
       }
+      if (url.pathname === "/api/corpus" && request.method === "GET") {
+        const upstream = await fetch("https://raw.githubusercontent.com/ny2kim/Spatial-AI-Trend/main/data/papers.json", { headers: { "User-Agent": "Research-OS" } });
+        if (!upstream.ok) return json({ error: "Could not load public paper corpus" }, { status: 502 });
+        const data = await upstream.json();
+        return json(data);
+      }
       return env.ASSETS.fetch(request);
     } catch (error) {
       return json({ error: error?.message || "Internal error" }, { status: 500 });
