@@ -28,6 +28,7 @@
   <section id="map" class="view">
     <h1>Topic Map</h1>
     <p>Click a node to open its Topic Radar detail.</p>
+    <div class="toolbar map-toolbar"><button class="btn" id="map-reset">Reset view</button><button class="btn" id="map-tracked">Tracked only</button><span class="muted">Scroll to zoom · drag to pan · click a node for details</span></div>
     <div id="topic-map" class="graph"></div>
   </section>
   <section id="library" class="view">
@@ -35,10 +36,17 @@
     <p>Your alphaXiv reading state and folders.</p>
     <div class="toolbar">
       <button class="btn" id="refresh-library">Refresh</button>
-      <button class="btn primary" id="notebook-selected">✦ Copy selected sources + Open NotebookLM</button>
+      <button class="btn primary" id="notebook-selected">✦ Copy selected + Open NotebookLM</button>
+      <button class="btn" id="alphaxiv-selected">◈ Open selected in alphaXiv</button>
+    </div>
+    <div class="library-controls card">
+      <input id="library-search" placeholder="Search title…">
+      <select id="status-filter"><option value="">All statuses</option><option>Want to read</option><option>Reading</option><option>Completed</option></select>
+      <select id="folder-filter"><option value="">All folders</option></select>
+      <select id="library-sort"><option value="title">Sort: Title</option><option value="newest">Sort: Newest</option><option value="oldest">Sort: Oldest</option></select>
     </div>
     <div class="card library-card">
-      <table><thead><tr><th></th><th>Paper</th><th>Status / folders</th><th>Actions</th></tr></thead><tbody id="library-body"></tbody></table>
+      <table><thead><tr><th></th><th>Paper</th><th>Status</th><th>Folders</th><th>Actions</th></tr></thead><tbody id="library-body"></tbody></table>
       <div id="library-empty" class="empty">Loading library…</div>
     </div>
   </section>
