@@ -1,114 +1,55 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Research OS · Private Workspace</title>
-<style>
-:root{--bg:#09101d;--p:#111a2d;--l:#28364f;--t:#eef4ff;--m:#9eacc5;--a:#7dd3fc;--g:#86efac;--y:#fde68a}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--t);font-family:Inter,system-ui,sans-serif;line-height:1.55}button,input,textarea{font:inherit}.shell{display:grid;grid-template-columns:235px 1fr;min-height:100vh}.side{padding:24px 17px;background:#0a1120;border-right:1px solid var(--l)}.brand{font-size:19px;font-weight:900}.private{font-size:11px;color:var(--g);margin:5px 0 22px}.nav{display:grid;gap:7px}.nav button{padding:10px 11px;border:1px solid var(--l);border-radius:10px;background:#111a30;color:var(--t);text-align:left;cursor:pointer}.nav button.active{border-color:var(--a);background:#17233e}.main{padding:28px;max-width:1250px;width:100%}.view{display:none}.view.active{display:block}.card{border:1px solid var(--l);background:var(--p);border-radius:15px;padding:16px;margin:12px 0}h1{font-size:36px;margin:0 0 8px}h2{margin-top:24px}p,.muted{color:var(--m)}.toolbar{display:flex;gap:7px;flex-wrap:wrap}.btn{border:1px solid var(--l);background:#111a30;color:var(--t);padding:8px 10px;border-radius:9px;cursor:pointer;text-decoration:none}.btn.primary{border-color:var(--a)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.tag{display:inline-block;padding:3px 7px;border-radius:999px;border:1px solid var(--l);font-size:10px;margin:2px}.status-candidate{color:var(--y)}.status-emerging{color:var(--g)}table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:10px;border-bottom:1px solid var(--l);font-size:12px}th{color:#c8d4e7}td{color:var(--m)}.empty{padding:25px;border:1px dashed var(--l);border-radius:13px;color:var(--m)}textarea,input{width:100%;border:1px solid var(--l);background:#0d1628;color:var(--t);border-radius:9px;padding:9px;margin:6px 0}.banner{padding:11px 13px;border:1px solid #315b48;background:#102219;border-radius:11px;color:#c3edcf;margin-bottom:16px}.graph{min-height:350px;display:flex;align-items:center;justify-content:center}.topic-card{cursor:pointer;transition:.15s}.topic-card:hover{border-color:#496286;transform:translateY(-1px)}.metricgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:12px 0}.metric{border:1px solid var(--l);background:#0d1628;border-radius:10px;padding:10px}.metric b{display:block;font-size:18px}.metric span{font-size:10px;color:var(--m)}.detailgrid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(260px,.7fr);gap:12px}.paper-row{padding:11px 0;border-bottom:1px solid var(--l)}.paper-row:last-child{border-bottom:0}.venue-row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--l)}.months{display:flex;gap:4px;height:86px;align-items:end;margin-top:12px}.months i{flex:1;min-width:5px;background:#365c87;border-radius:4px 4px 1px 1px;position:relative}.months i span{position:absolute;bottom:-19px;left:50%;transform:translateX(-50%);font-size:8px;color:var(--m);white-space:nowrap}.toast{display:none;position:fixed;right:18px;bottom:18px;padding:11px 13px;border:1px solid #315b48;background:#102219;border-radius:10px;color:#c3edcf;z-index:99}@media(max-width:850px){.shell{grid-template-columns:1fr}.side{border-right:0;border-bottom:1px solid var(--l)}.nav{grid-template-columns:repeat(2,1fr)}.grid,.detailgrid,.metricgrid{grid-template-columns:1fr}.main{padding:20px}}</style></head>
-<body><div id="public-block" style="display:none;padding:40px;max-width:760px;margin:auto"><h1>Private workspace disabled here</h1><p>This page is intentionally disabled on the public GitHub Pages host. Deploy this folder behind Cloudflare Access and allow only your account.</p></div>
-<div id="app" class="shell"><aside class="side"><div class="brand">Research OS</div><div class="private">🔒 Private workspace</div><div class="nav"><button class="active" data-v="radar">◎ Topic Radar</button><button data-v="map">⌘ Topic Map</button><button data-v="library">▤ Library</button><button data-v="ideas">✦ Ideas Lab</button></div></aside><main class="main">
-<div class="banner">No private research data is embedded in this public repository. Private content is loaded only at runtime from the protected backend.</div>
-<section id="radar" class="view active"><h1>Topic Radar</h1><p>Private topic taxonomy + counts computed from the public paper corpus collected by the daily research pipeline. Counts below are <b>tracked-corpus counts</b>, not claims about every paper published in the field.</p><div id="topics" class="grid"></div><div id="topics-empty" class="empty">No private topics stored yet. Use “Track Topic” from Today after secure deployment.</div><div id="topic-detail" class="card" style="display:none"></div></section>
-<section id="map" class="view"><h1>Topic Map</h1><p>Candidate → Emerging → Established. Nodes are generated from your private topic data.</p><div class="card graph" id="topic-map"></div></section>
-<section id="library" class="view"><h1>alphaXiv Library</h1><p>Saved papers, reading status and folders are read directly from your alphaXiv account.</p><div class="toolbar"><button class="btn" id="refresh-library">Refresh</button><button class="btn primary" id="notebook-selected">✦ Analyze selected in NotebookLM</button></div><div class="card"><table><thead><tr><th></th><th>Paper</th><th>Folders / status</th><th>Actions</th></tr></thead><tbody id="library-body"></tbody></table><div id="library-empty" class="empty">Connect the alphaXiv API key to load your library.</div></div></section>
-<section id="ideas" class="view"><h1>Ideas Lab</h1><p>Private research questions and experiments are stored in the protected data store, never in the public Pages HTML.</p><div class="card"><input id="idea-title" placeholder="Idea title"><textarea id="idea-body" rows="5" placeholder="Why now? Gap? Possible experiment?"></textarea><button class="btn primary" id="add-idea">Add private idea</button></div><div id="idea-list"></div></section>
-</main></div><div class="toast" id="toast"></div>
-<script>
-const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
-let PUBLIC_CORPUS=[], SELECTED_TOPIC=null;
-function toast(m){const t=$('#toast');t.textContent=m;t.style.display='block';setTimeout(()=>t.style.display='none',3200)}
-if(location.hostname.endsWith('github.io')){$('#app').style.display='none';$('#public-block').style.display='block'}else{boot()}
-function boot(){$$('.nav button').forEach(b=>b.onclick=()=>{$$('.nav button').forEach(x=>x.classList.toggle('active',x===b));$$('.view').forEach(v=>v.classList.toggle('active',v.id===b.dataset.v));if(b.dataset.v==='library')loadLibrary()});$('#refresh-library').onclick=loadLibrary;$('#notebook-selected').onclick=notebookSelected;$('#add-idea').onclick=addIdea;loadTopics();loadIdeas();processIncoming()}
-async function api(path,opt={}){const r=await fetch(path,{credentials:'include',headers:{'Content-Type':'application/json',...(opt.headers||{})},...opt});const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.error||('HTTP '+r.status));return j}
-async function processIncoming(){const q=new URLSearchParams(location.search),a=q.get('action'),paper=q.get('paper');if(a==='save'&&paper){try{const folder=q.get('folder')||'Want to read';await api('/api/save',{method:'POST',body:JSON.stringify({paper,folderName:folder})});toast('Saved to alphaXiv → '+folder);history.replaceState({},'',location.pathname);loadLibrary()}catch(e){toast('Save failed: '+e.message)}}if(a==='track'&&paper){const topic=q.get('topic')||'Unsorted';try{let data=await getPrivate('topics');let arr=Array.isArray(data)?data:[];let t=arr.find(x=>x.name===topic);if(!t){t={name:topic,status:'candidate',papers:[],createdAt:new Date().toISOString()};arr.push(t)}if(!t.papers.includes(paper))t.papers.push(paper);await putPrivate('topics',arr);toast('Tracked privately → '+topic);history.replaceState({},'',location.pathname);loadTopics()}catch(e){toast('Track failed: '+e.message)}}}
-async function loadLibrary(){try{const j=await api('/api/library'),folders=j.folders||[],map=new Map();folders.forEach(f=>(f.papers||[]).forEach(p=>{const id=p.id||p.arxiv_id||p.url||p.title;if(!map.has(id))map.set(id,{...p,folders:[]});map.get(id).folders.push(f.name)}));const rows=[...map.values()];$('#library-empty').style.display=rows.length?'none':'block';$('#library-body').innerHTML=rows.map(p=>{const id=p.arxiv_id||p.id||'',url=p.url||(/^[0-9]{4}\.[0-9]+/.test(id)?'https://arxiv.org/abs/'+id:''),alpha=/arxiv\.org/.test(url)?url.replace('arxiv.org','www.alphaxiv.org'):url;return '<tr><td><input class="pick" type="checkbox" data-url="'+esc(url)+'"></td><td><b style="color:#eef4ff">'+esc(p.title||id)+'</b></td><td>'+p.folders.map(x=>'<span class="tag">'+esc(x)+'</span>').join('')+'</td><td><a class="btn" target="_blank" rel="noopener noreferrer" href="'+esc(alpha||'#')+'">Analyze</a></td></tr>'}).join('')}catch(e){$('#library-empty').style.display='block';$('#library-empty').textContent='Library unavailable: '+e.message}}
-async function notebookSelected(){const urls=$$('.pick:checked').map(x=>x.dataset.url).filter(Boolean);if(!urls.length)return toast('Select at least one paper.');try{await navigator.clipboard.writeText(urls.join('\n'));toast(urls.length+' paper URLs copied. Paste them into NotebookLM Add sources.')}catch(e){toast('Copy failed; paste selected URLs manually.')}window.open('https://notebooklm.google.com/','_blank','noopener')}
-const STARTER_TOPICS=[
-{name:'VLM / LVLM',status:'established',papers:[],parent:null,subtopics:['Multimodal ICL','Spatial Reasoning','Visual Memory','Multi-view VLM','Recurrent VLM']},
-{name:'Multimodal ICL',status:'established',papers:[],parent:'VLM / LVLM',subtopics:['Demo selection','Visual usage','Counterfactual ICL','Multi-turn ICL']},
-{name:'Spatial Reasoning',status:'established',papers:[],parent:'VLM / LVLM',subtopics:['Metric reasoning','3D grounding','Geometry tools']},
-{name:'Visual Memory',status:'emerging',papers:[],parent:'VLM / LVLM',subtopics:['Persistent visual state','Episodic memory','Retrieval memory']},
-{name:'Multi-view VLM',status:'emerging',papers:[],parent:'VLM / LVLM',subtopics:['Cross-view consistency','View selection','Patient-level aggregation']},
-{name:'Agentic VLM',status:'emerging',papers:[],parent:'VLM / LVLM',subtopics:['Tool use','Visual search','Memory','Dynamic routing']},
-{name:'VLA / Embodied',status:'established',papers:[],parent:null,subtopics:['Robot policies','Embodied reasoning','Runtime safety']},
-{name:'World Models / Physical AI',status:'established',papers:[],parent:null,subtopics:['World-action models','Video prediction','Dynamics modeling']},
-{name:'Geospatial AI',status:'established',papers:[],parent:null,subtopics:['Remote sensing VLM','Visual search','Spatial grounding']},
-{name:'Agentic Models / AI Agents',status:'established',papers:[],parent:null,subtopics:['Agent runtimes','Tool use','Approval / gating','Control planes']},
-{name:'Decision Models / System-One',status:'emerging',papers:[],parent:'Agentic Models / AI Agents',subtopics:['Typed decisions','Model routing','Skill routing','Approval / gating']},
-{name:'Generative Modeling',status:'established',papers:[],parent:null,subtopics:['Diffusion','Flow matching','Coverage / diversity']},
-{name:'Recurrent VLM',status:'candidate',papers:['https://arxiv.org/abs/2609.38426'],parent:'VLM / LVLM',subtopics:['Model loop','Module loop','Test-time compute']},
-{name:'World-Action Models',status:'emerging',papers:['https://arxiv.org/abs/2610.02054'],parent:'World Models / Physical AI',subtopics:['Unified reasoning/world/action']},
-{name:'Visual Search',status:'emerging',papers:['https://arxiv.org/abs/2512.02715'],parent:'Geospatial AI',subtopics:['Progressive search','Reward-guided exploration']}
-];
-async function getPrivate(key){try{return (await api('/api/private-data?key='+encodeURIComponent(key))).value??[]}catch(e){return []}}
-async function bootstrapTopics(){
- let arr=await getPrivate('topics');
- if(Array.isArray(arr)&&arr.length){
-   let changed=false;
-   arr=arr.map(t=>{
-     const s=STARTER_TOPICS.find(x=>x.name===t.name);
-     if(!s)return t;
-     const next={...t};
-     if(!next.parent&&s.parent){next.parent=s.parent;changed=true}
-     if(!Array.isArray(next.subtopics)||!next.subtopics.length){next.subtopics=s.subtopics;changed=true}
-     if(Array.isArray(next.papers)){
-       const bad='https://arxiv.org/abs/2512.02715';
-       if(next.papers.includes(bad)){next.papers=next.papers.filter(x=>x!==bad);changed=true}
-     }
-     return next;
-   });
-   if(changed)try{await putPrivate('topics',arr)}catch(e){}
-   return arr;
- }
- const seeded=STARTER_TOPICS.map(x=>({...x,papers:(x.papers||[]).filter(p=>p!=='https://arxiv.org/abs/2512.02715'),createdAt:new Date().toISOString(),seeded:true}));
- try{await putPrivate('topics',seeded);return seeded}catch(e){toast('Could not initialize topic taxonomy: '+e.message);return seeded}
-}
-async function putPrivate(key,value){return api('/api/private-data?key='+encodeURIComponent(key),{method:'PUT',body:JSON.stringify({value})})}
-async function loadCorpus(){try{const j=await api('/api/corpus');return Array.isArray(j.papers)?j.papers:[]}catch(e){toast('Paper corpus unavailable: '+e.message);return []}}
-function parseDate(s){const d=new Date((s||'')+'T00:00:00Z');return isNaN(d)?null:d}
-function papersForTopic(name,topic){
- const explicit=new Set((topic?.papers||[]).map(String));
- return PUBLIC_CORPUS.filter(p=>(p.topics||[]).includes(name)||explicit.has(p.source_url)||explicit.has(p.pdf_url)||explicit.has(p.id))
-}
-function topicMetrics(name,topic){
- const ps=papersForTopic(name,topic),now=new Date(),d90=new Date(now.getTime()-90*864e5),d180=new Date(now.getTime()-180*864e5);
- const recent=ps.filter(p=>{const d=parseDate(p.date);return d&&d>=d90}).length;
- const prior=ps.filter(p=>{const d=parseDate(p.date);return d&&d>=d180&&d<d90}).length;
- const y25=ps.filter(p=>p.year===2025||String(p.date||'').startsWith('2025')).length;
- const y26=ps.filter(p=>p.year===2026||String(p.date||'').startsWith('2026')).length;
- const venues={};ps.forEach(p=>{const v=p.venue||'Other';venues[v]=(venues[v]||0)+1});
- return {ps,recent,prior,y25,y26,venues}
-}
-function monthBuckets(ps){
- const out=[],now=new Date();
- for(let i=11;i>=0;i--){const d=new Date(Date.UTC(now.getUTCFullYear(),now.getUTCMonth()-i,1));out.push({key:d.getUTCFullYear()+'-'+String(d.getUTCMonth()+1).padStart(2,'0'),label:d.toLocaleString('en-US',{month:'short',timeZone:'UTC'}),n:0})}
- const m=new Map(out.map(x=>[x.key,x]));ps.forEach(p=>{const d=parseDate(p.date);if(!d)return;const k=d.getUTCFullYear()+'-'+String(d.getUTCMonth()+1).padStart(2,'0');if(m.has(k))m.get(k).n++});return out
-}
-function renderTopicDetail(name,topic){
- SELECTED_TOPIC=name;const m=topicMetrics(name,topic),box=$('#topic-detail');box.style.display='block';
- const months=monthBuckets(m.ps),max=Math.max(1,...months.map(x=>x.n));
- const venues=Object.entries(m.venues).sort((a,b)=>b[1]-a[1]);
- const papers=[...m.ps].sort((a,b)=>String(b.date).localeCompare(String(a.date)));
- box.innerHTML='<div class="status-'+esc(topic.status||'candidate')+'">'+esc(topic.status||'candidate')+'</div><h2 style="margin-top:4px">'+esc(name)+'</h2>'+
- '<div class="metricgrid"><div class="metric"><b>'+m.y25+'</b><span>2025 tracked papers</span></div><div class="metric"><b>'+m.y26+'</b><span>2026 tracked papers</span></div><div class="metric"><b>'+m.recent+'</b><span>last 90 days</span></div><div class="metric"><b>'+m.prior+'</b><span>previous 90 days</span></div></div>'+
- '<div class="detailgrid"><div><h3>12-month tracked trend</h3><div class="months">'+months.map(x=>'<i style="height:'+Math.max(4,Math.round(x.n/max*66))+'px" title="'+esc(x.key)+': '+x.n+'"><span>'+esc(x.label)+'</span></i>').join('')+'</div><h3 style="margin-top:34px">Related papers</h3>'+
- (papers.length?papers.map(p=>'<div class="paper-row"><div class="muted">'+esc(p.date||'')+' · '+esc(p.venue||'')+' · '+esc(p.type||'Research Paper')+'</div><b>'+esc(p.title||'Untitled')+'</b><div class="toolbar" style="margin-top:7px"><a class="btn" target="_blank" rel="noopener noreferrer" href="'+esc(p.source_url||'#')+'">Paper</a>'+(p.pdf_url?'<a class="btn" target="_blank" rel="noopener noreferrer" href="'+esc(p.pdf_url)+'">PDF</a>':'')+'<a class="btn" target="_blank" rel="noopener noreferrer" href="'+esc((p.source_url||'').replace('arxiv.org','www.alphaxiv.org'))+'">Analyze</a></div></div>').join(''):'<div class="empty">No papers in the tracked corpus yet.</div>')+
- '</div><div><h3>Venue breakdown</h3>'+(venues.length?venues.map(([v,n])=>'<div class="venue-row"><span>'+esc(v)+'</span><b>'+n+'</b></div>').join(''):'<div class="empty">No venue data yet.</div>')+
- '<h3>Emerging / related subtopics</h3><div>'+((topic.subtopics||[]).map(s=>'<span class="tag">'+esc(s)+'</span>').join('')||'<span class="muted">None yet</span>')+'</div><p class="muted" style="margin-top:14px">Counts grow as the Sunday–Friday research pipeline appends newly discovered papers. Personal tracked-paper state remains private.</p></div></div>';
- box.scrollIntoView({behavior:'smooth',block:'nearest'})
-}
-async function loadTopics(){
- const [arr,corpus]=await Promise.all([bootstrapTopics(),loadCorpus()]);PUBLIC_CORPUS=corpus;
- $('#topics-empty').style.display=arr.length?'none':'block';
- $('#topics').innerHTML=arr.map((t,i)=>{
-   const subs=(t.subtopics||[]).slice(0,4).map(s=>'<span class="tag">'+esc(s)+'</span>').join('');
-   const m=topicMetrics(t.name,t);
-   const delta=m.prior?Math.round((m.recent-m.prior)/m.prior*100):null;
-   return '<div class="card topic-card" data-topic-index="'+i+'"><div class="status-'+esc(t.status||'candidate')+'">'+esc(t.status||'candidate')+'</div><h2>'+esc(t.name)+'</h2><p><b style="color:#eef4ff">'+m.ps.length+'</b> tracked corpus papers · '+m.y26+' in 2026</p><p class="muted">Last 90d: '+m.recent+' · Prior 90d: '+m.prior+(delta===null?'':' · '+(delta>=0?'+':'')+delta+'%')+'</p><div>'+subs+'</div>'+(t.parent?'<p class="muted">Parent: '+esc(t.parent)+'</p>':'')+'</div>'
- }).join('');
- $$('.topic-card').forEach(c=>c.onclick=()=>{const t=arr[Number(c.dataset.topicIndex)];renderTopicDetail(t.name,t)});
- renderMap(arr);
- if(arr.length){const target=arr.find(t=>t.name===SELECTED_TOPIC)||arr[0];renderTopicDetail(target.name,target)}
-}
-function renderMap(arr){const box=$('#topic-map');if(!arr.length){box.innerHTML='<div class="empty">Topic nodes appear here after you track papers.</div>';return}box.innerHTML='<svg viewBox="0 0 800 330" style="width:100%;height:330px">'+arr.map((t,i)=>{const x=90+(i%6)*125,y=90+Math.floor(i/6)*120,c=t.status==='established'?'#7dd3fc':t.status==='emerging'?'#86efac':'#fde68a';return '<g transform="translate('+x+','+y+')"><circle r="42" fill="#18243c" stroke="'+c+'" stroke-width="3"/><text text-anchor="middle" fill="#eef4ff" font-size="11">'+esc(t.name.slice(0,18))+'</text></g>'}).join('')+'</svg>'}
-async function loadIdeas(){const arr=await getPrivate('ideas');$('#idea-list').innerHTML=arr.map(x=>'<div class="card"><h2>'+esc(x.title)+'</h2><p>'+esc(x.body)+'</p></div>').join('')}
-async function addIdea(){const title=$('#idea-title').value.trim(),body=$('#idea-body').value.trim();if(!title)return toast('Add a title.');let arr=await getPrivate('ideas');arr=Array.isArray(arr)?arr:[];arr.unshift({title,body,createdAt:new Date().toISOString()});await putPrivate('ideas',arr);$('#idea-title').value='';$('#idea-body').value='';toast('Private idea saved.');loadIdeas()}
-function esc(s){return String(s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
-</script></body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Research OS · Private</title>
+<link rel="stylesheet" href="/research-os.css">
+</head>
+<body>
+<div class="shell">
+<aside class="side">
+  <div class="brand">Research OS</div>
+  <div class="private">🔒 Private workspace</div>
+  <nav class="nav">
+    <button class="active" data-v="today">◉ Today</button>
+    <button data-v="radar">◎ Topic Radar</button>
+    <button data-v="map">⌘ Topic Map</button>
+    <button data-v="library">▤ Library</button>
+  </nav>
+</aside>
+<main class="main">
+  <section id="today" class="view active">
+    <h1>Today</h1>
+    <p>Same public Sunday–Friday research dashboard inside your private workspace.</p>
+    <iframe class="today-frame" src="https://ny2kim.github.io/Spatial-AI-Trend/" title="Spatial AI Trend Today"></iframe>
+  </section>
+  <section id="radar" class="view">
+    <h1>Topic Radar</h1>
+    <p>Trend metrics use this Research OS tracked paper corpus.</p>
+    <div id="topics" class="grid"></div>
+    <div id="topic-detail" class="card detail" hidden></div>
+  </section>
+  <section id="map" class="view">
+    <h1>Topic Map</h1>
+    <p>Click a node to open its Topic Radar detail.</p>
+    <div id="topic-map" class="graph"></div>
+  </section>
+  <section id="library" class="view">
+    <h1>alphaXiv Library</h1>
+    <p>Your alphaXiv reading state and folders.</p>
+    <div class="toolbar">
+      <button class="btn" id="refresh-library">Refresh</button>
+      <button class="btn primary" id="notebook-selected">✦ Selected → NotebookLM</button>
+    </div>
+    <div class="card library-card">
+      <table><thead><tr><th></th><th>Paper</th><th>Status / folders</th><th>Actions</th></tr></thead><tbody id="library-body"></tbody></table>
+      <div id="library-empty" class="empty">Loading library…</div>
+    </div>
+  </section>
+</main>
+</div>
+<div class="toast" id="toast"></div>
+<script src="/research-os.js"></script>
+</body>
+</html>
