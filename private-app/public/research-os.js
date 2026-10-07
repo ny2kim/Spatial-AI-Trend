@@ -101,19 +101,34 @@ function paperUniversalId(p){
  const raw=p.universal_paper_id||p.paper_id||p.id||'';
  return String(raw).trim();
 }
+function cleanPaperTitle(value){
+ let s=String(value||'').trim();
+ s=s.replace(/\[([^\]]+)\]\([^\)]+\)/g,'$1');
+ s=s.replace(/\*\*([^*]+)\*\*/g,'$1').replace(/__([^_]+)__/g,'$1');
+ s=s.replace(/\*([^*]+)\*/g,'$1').replace(/_([^_]+)_/g,'$1');
+ s=s.replace(/\`([^\`]+)\`/g,'$1');
+ s=s.replace(/\$/g,'');
+ for(let i=0;i<4;i++){
+   s=s.replace(/\\(?:textit|textbf|emph|mathrm|mathbf|operatorname|textrm|textsf|texttt)\{([^{}]*)\}/g,'$1');
+ }
+ s=s.replace(/\\[,:;!]/g,' ');
+ s=s.replace(/\\([#$%&_{}])/g,'$1');
+ s=s.replace(/\s+/g,' ').trim();
+ return s;
+}
 function normalizedLibraryRow(p,folders){
  const uid=paperUniversalId(p);
  const isArxiv=/^\d{4}\.\d{4,5}(?:v\d+)?$/i.test(uid);
  const url=isArxiv?'https://arxiv.org/abs/'+uid:(p.url||p.paper_url||p.source_url||'');
  const alpha=p.alpha_url||p.alphaxiv_url||(uid?'https://www.alphaxiv.org/abs/'+encodeURIComponent(uid):'');
- return {...p,_id:uid||p.title,_url:url,_alpha:alpha,folders:[...new Set(folders)],publication_date:p.publication_date||p.published_at||p.date||''}
+ return {...p,_id:uid||p.title,_title:cleanPaperTitle(p.title||uid),_url:url,_alpha:alpha,folders:[...new Set(folders)],publication_date:p.publication_date||p.published_at||p.date||''}
 }
 function statusOf(p){return ['Completed','Reading','Want to read'].find(x=>p.folders.includes(x))||''}
 function customFoldersOf(p){return p.folders.filter(x=>!['Want to read','Reading','Completed'].includes(x))}
 function renderLibrary(){
  const q=($('#library-search').value||'').trim().toLowerCase(),status=$('#status-filter').value,folder=$('#folder-filter').value,sort=$('#library-sort').value;
- let rows=LIBRARY_ROWS.filter(p=>(!q||String(p.title||p._id).toLowerCase().includes(q))&&(!status||p.folders.includes(status))&&(!folder||p.folders.includes(folder)));
- rows.sort((a,b)=>sort==='newest'?String(b.publication_date||'').localeCompare(String(a.publication_date||'')):sort==='oldest'?String(a.publication_date||'').localeCompare(String(b.publication_date||'')):String(a.title||a._id).localeCompare(String(b.title||b._id)));
+ let rows=LIBRARY_ROWS.filter(p=>(!q||String(p._title||p.title||p._id).toLowerCase().includes(q))&&(!status||p.folders.includes(status))&&(!folder||p.folders.includes(folder)));
+ rows.sort((a,b)=>sort==='newest'?String(b.publication_date||'').localeCompare(String(a.publication_date||'')):sort==='oldest'?String(a.publication_date||'').localeCompare(String(b.publication_date||'')):String(a._title||a.title||a._id).localeCompare(String(b._title||b.title||b._id)));
  $('#library-empty').style.display=rows.length?'none':'block';
  $('#library-body').innerHTML=rows.map((p,i)=>{
    const st=statusOf(p),custom=customFoldersOf(p),paperKey=p._url||p._id;
@@ -123,7 +138,7 @@ function renderLibrary(){
    const add=options?'<div class="folder-add"><select class="folder-select" data-key="'+esc(paperKey)+'"><option value="">Add folder…</option>'+options+'</select><button class="btn add-folder-btn" data-key="'+esc(paperKey)+'">Add</button></div>':'';
    const alphaAction=p._alpha?'<a class="btn primary" target="_blank" rel="noopener noreferrer" href="'+esc(p._alpha)+'">◈ alphaXiv / Chat</a>':'<button class="btn" disabled title="No alphaXiv paper ID available">alphaXiv unavailable</button>';
    const paperAction=p._url?'<a class="btn" target="_blank" rel="noopener noreferrer" href="'+esc(p._url)+'">Paper</a>':'';
-   return '<tr><td><input class="pick" type="checkbox" data-url="'+esc(p._url)+'" data-alpha="'+esc(p._alpha)+'"></td><td><b class="paper-title">'+esc(p.title||p._id)+'</b><div class="muted">'+esc(p.publication_date||'')+'</div></td><td>'+statusSelect+'</td><td>'+chips+add+'</td><td><div class="toolbar">'+alphaAction+paperAction+'</div></td></tr>'
+   return '<tr><td><input class="pick" type="checkbox" data-url="'+esc(p._url)+'" data-alpha="'+esc(p._alpha)+'"></td><td><b class="paper-title">'+esc(p._title||p.title||p._id)+'</b><div class="muted">'+esc(p.publication_date||'')+'</div></td><td>'+statusSelect+'</td><td>'+chips+add+'</td><td><div class="toolbar">'+alphaAction+paperAction+'</div></td></tr>'
  }).join('');
  bindLibraryRowActions()
 }
