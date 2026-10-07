@@ -22,8 +22,8 @@ function toast(m){const t=$('#toast');t.textContent=m;t.style.display='block';cl
 async function api(path,opt={}){const r=await fetch(path,{credentials:'include',headers:{'Content-Type':'application/json',...(opt.headers||{})},...opt});const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.error||('HTTP '+r.status));return j}
 async function getPrivate(key){try{return (await api('/api/private-data?key='+encodeURIComponent(key))).value??[]}catch{return []}}
 async function putPrivate(key,value){return api('/api/private-data?key='+encodeURIComponent(key),{method:'PUT',body:JSON.stringify({value})})}
-function show(id){$('.nav button[data-v]').forEach(b=>b.classList.toggle('active',b.dataset.v===id));$('.view').forEach(v=>v.classList.toggle('active',v.id===id));if(id==='library')loadLibrary()}
-$('.nav button[data-v]').forEach(b=>b.onclick=()=>show(b.dataset.v));
+function show(id){$$('.nav button[data-v]').forEach(b=>b.classList.toggle('active',b.dataset.v===id));$$('.view').forEach(v=>v.classList.toggle('active',v.id===id));if(id==='library')loadLibrary()}
+$$('.nav button[data-v]').forEach(b=>b.onclick=()=>show(b.dataset.v));
 
 async function loadTopics(){
  let arr=await getPrivate('topics');
@@ -89,4 +89,17 @@ async function processIncoming(){
  if(a==='save'){try{const folder=q.get('folder')||'Want to read';await api('/api/save',{method:'POST',body:JSON.stringify({paper,folderName:folder})});toast('Saved to alphaXiv → '+folder);history.replaceState({},'',location.pathname);show('library');await loadLibrary()}catch(e){toast('Save failed: '+e.message)}}
  if(a==='track'){try{const topic=q.get('topic')||'Unsorted';let arr=await getPrivate('topics');if(!Array.isArray(arr))arr=[];let t=arr.find(x=>x.name===topic);if(!t){t={name:topic,status:'candidate',parent:null,subtopics:[],papers:[]};arr.push(t)}if(!t.papers.includes(paper))t.papers.push(paper);await putPrivate('topics',arr);toast('Tracked → '+topic);history.replaceState({},'',location.pathname);await loadTopics();show('radar')}catch(e){toast('Track failed: '+e.message)}}
 }
-loadTopics();processIncoming();
+window.addEventListener('error',e=>{
+  const box=document.querySelector('#radar');
+  if(box && !document.querySelector('#runtime-error')){
+    const d=document.createElement('div');
+    d.id='runtime-error';
+    d.className='empty';
+    d.style.marginTop='14px';
+    d.textContent='Research OS runtime error: '+(e.message||'unknown error');
+    box.prepend(d);
+  }
+});
+Promise.allSettled([loadTopics(),processIncoming()]).then(results=>{
+  results.forEach(r=>{if(r.status==='rejected')toast('Research OS error: '+(r.reason?.message||r.reason))})
+});
