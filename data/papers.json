@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-09",
   "papers": [
     {
       "id": "arxiv:2609.38426",
@@ -387,6 +387,227 @@
         "VLM / LVLM"
       ],
       "discovered_on": "2026-10-08"
+    },
+    {
+      "id": "arxiv:2610.10528",
+      "title": "Long-WAM: Scaling the Context of World-Action Models",
+      "type": "Research Paper",
+      "date": "2026-10-07",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.10528",
+      "pdf_url": "https://arxiv.org/pdf/2610.10528.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models",
+        "Visual Memory"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models",
+        "Visual Memory"
+      ],
+      "discovered_on": "2026-10-09"
+    },
+    {
+      "id": "arxiv:2610.10409",
+      "title": "RobotWorld: Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks and Embodiments",
+      "type": "Research Paper",
+      "date": "2026-10-07",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.10409",
+      "pdf_url": "https://arxiv.org/pdf/2610.10409.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Agentic Models / AI Agents",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "Agentic Models / AI Agents",
+        "Spatial Reasoning"
+      ],
+      "discovered_on": "2026-10-09"
+    },
+    {
+      "id": "arxiv:2610.10524",
+      "title": "GRACE: Generation-aware latent compression for efficient video generation",
+      "type": "Research Paper",
+      "date": "2026-10-07",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.10524",
+      "pdf_url": "https://arxiv.org/pdf/2610.10524.pdf",
+      "topics": [
+        "Generative Modeling",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "Generative Modeling",
+        "World Models / Physical AI"
+      ],
+      "discovered_on": "2026-10-09"
+    },
+    {
+      "id": "arxiv:2610.09832",
+      "title": "SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles",
+      "type": "Research Paper",
+      "date": "2026-10-07",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.09832",
+      "pdf_url": "https://arxiv.org/pdf/2610.09832.pdf",
+      "topics": [
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Agentic Models / AI Agents"
+      ],
+      "discovered_on": "2026-10-09"
+    },
+    {
+      "id": "arxiv:2610.09683",
+      "title": "System Switch: When Should a Fast Decision Model Stop and Think?",
+      "type": "Research Paper",
+      "date": "2026-10-07",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.09683",
+      "pdf_url": "https://arxiv.org/pdf/2610.09683.pdf",
+      "topics": [
+        "Decision Models / System-One",
+        "Agentic Models / AI Agents",
+        "Agentic VLM"
+      ],
+      "tags": [
+        "Decision Models / System-One",
+        "Agentic Models / AI Agents",
+        "Agentic VLM"
+      ],
+      "discovered_on": "2026-10-09"
+    },
+    {
+      "id": "arxiv:2610.08077",
+      "title": "Self-Retrospection Distillation: Turning Post-hoc Experiences into Prior Foresight",
+      "type": "Research Paper",
+      "date": "2026-10-06",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.08077",
+      "pdf_url": "https://arxiv.org/pdf/2610.08077.pdf",
+      "topics": [
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Agentic Models / AI Agents"
+      ],
+      "discovered_on": "2026-10-09"
+    },
+    {
+      "id": "arxiv:2610.07922",
+      "title": "OpenWAM: An Open Framework for Composable World-Action Models",
+      "type": "Research Paper",
+      "date": "2026-10-06",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.07922",
+      "pdf_url": "https://arxiv.org/pdf/2610.07922.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models"
+      ],
+      "discovered_on": "2026-10-09"
+    },
+    {
+      "id": "arxiv:2610.04722",
+      "title": "NAMVIS: Next-Scale Autoregressive Multi-View Image Synthesis",
+      "type": "Research Paper",
+      "date": "2026-10-03",
+      "year": 2026,
+      "venue": "NeurIPS 2026",
+      "source_url": "https://arxiv.org/abs/2610.04722",
+      "pdf_url": "https://arxiv.org/pdf/2610.04722.pdf",
+      "topics": [
+        "Generative Modeling",
+        "Multi-view VLM",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Generative Modeling",
+        "Multi-view VLM",
+        "Spatial Reasoning"
+      ],
+      "discovered_on": "2026-10-09"
+    },
+    {
+      "id": "arxiv:2610.03036",
+      "title": "WebFovea: When the Model Is Right but the Click Is Wrong",
+      "type": "Research Paper",
+      "date": "2026-10-02",
+      "year": 2026,
+      "venue": "arXiv (revised Oct 7)",
+      "source_url": "https://arxiv.org/abs/2610.03036",
+      "pdf_url": "https://arxiv.org/pdf/2610.03036.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Agentic VLM",
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Agentic Models / AI Agents",
+        "Agentic VLM",
+        "VLM / LVLM"
+      ],
+      "discovered_on": "2026-10-09"
+    },
+    {
+      "id": "arxiv:2610.00994",
+      "title": "VIEScore2: Unified Image Evaluation with Spatially Grounded Explanations",
+      "type": "Research Paper",
+      "date": "2026-10-01",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.00994",
+      "pdf_url": "https://arxiv.org/pdf/2610.00994.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning",
+        "Generative Modeling"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "Spatial Reasoning",
+        "Generative Modeling"
+      ],
+      "discovered_on": "2026-10-09"
+    },
+    {
+      "id": "arxiv:2609.33659",
+      "title": "Learning Multimodal Embeddings with Evidence-Aligned Readout",
+      "type": "Research Paper",
+      "date": "2026-09-27",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2609.33659",
+      "pdf_url": "https://arxiv.org/pdf/2609.33659.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Visual Search"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "Visual Search"
+      ],
+      "discovered_on": "2026-10-09"
     }
   ]
 }
