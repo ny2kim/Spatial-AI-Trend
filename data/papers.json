@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
-  "updated_at": "2026-10-09",
+  "updated_at": "2026-10-11",
   "papers": [
     {
       "id": "arxiv:2609.38426",
@@ -608,6 +608,123 @@
         "Visual Search"
       ],
       "discovered_on": "2026-10-09"
+    },
+    {
+      "id": "arxiv:2610.10429",
+      "title": "SGF+: Decoupling Gradient Flows for Autoregressive Video Generation",
+      "type": "Research Paper",
+      "date": "2026-10-07",
+      "year": 2026,
+      "venue": "arXiv (revised Oct 8)",
+      "source_url": "https://arxiv.org/abs/2610.10429",
+      "pdf_url": "https://arxiv.org/pdf/2610.10429.pdf",
+      "topics": [
+        "Generative Modeling",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "Video diffusion",
+        "Long-context generation"
+      ],
+      "discovered_on": "2026-10-11"
+    },
+    {
+      "id": "arxiv:2610.07887",
+      "title": "Visual Abstention in Unified Multimodal Models",
+      "type": "Research Paper",
+      "date": "2026-10-06",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.07887",
+      "pdf_url": "https://arxiv.org/pdf/2610.07887.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Generative Modeling",
+        "Agentic VLM"
+      ],
+      "tags": [
+        "Visual verification",
+        "Draw-or-Decline"
+      ],
+      "discovered_on": "2026-10-11"
+    },
+    {
+      "id": "arxiv:2610.06196",
+      "title": "EORestore-Agent: Fidelity-Guided Agentic Restoration of Remote Sensing Images with Composite Degradations",
+      "type": "Research Paper",
+      "date": "2026-10-05",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.06196",
+      "pdf_url": "https://arxiv.org/pdf/2610.06196.pdf",
+      "topics": [
+        "Geospatial AI",
+        "Agentic Models / AI Agents",
+        "Agentic VLM",
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Remote sensing",
+        "Tool gating"
+      ],
+      "discovered_on": "2026-10-11"
+    },
+    {
+      "id": "arxiv:2610.05699",
+      "title": "Planetary Geospatial Foundation Models: A New Paradigm for Global Public Health",
+      "type": "Research Paper",
+      "date": "2026-10-05",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.05699",
+      "pdf_url": "https://arxiv.org/pdf/2610.05699.pdf",
+      "topics": [
+        "Geospatial AI"
+      ],
+      "tags": [
+        "Public health",
+        "Spatial forecasting"
+      ],
+      "discovered_on": "2026-10-11"
+    },
+    {
+      "id": "arxiv:2610.08227",
+      "title": "How Many Independent Samples Does a Satellite Image Contain? Generalization Bounds for Spatially Dependent Data",
+      "type": "Research Paper",
+      "date": "2026-10-06",
+      "year": 2026,
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing (2026), vol. 64",
+      "source_url": "https://arxiv.org/abs/2610.08227",
+      "pdf_url": "https://arxiv.org/pdf/2610.08227.pdf",
+      "topics": [
+        "Geospatial AI"
+      ],
+      "tags": [
+        "Spatial autocorrelation",
+        "Spatial cross-validation"
+      ],
+      "discovered_on": "2026-10-11"
+    },
+    {
+      "id": "arxiv:2609.39870",
+      "title": "Magic-W0: A Structured World-Action Foundation Model for Physical Intelligence",
+      "type": "Research Paper",
+      "date": "2026-09-30",
+      "year": 2026,
+      "venue": "arXiv (revised Oct 3)",
+      "source_url": "https://arxiv.org/abs/2609.39870",
+      "pdf_url": "https://arxiv.org/pdf/2609.39870.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "3D motion",
+        "Robot manipulation"
+      ],
+      "discovered_on": "2026-10-11"
     }
   ]
 }
