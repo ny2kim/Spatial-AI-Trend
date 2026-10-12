@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
-  "updated_at": "2026-10-11",
+  "updated_at": "2026-10-12",
   "papers": [
     {
       "id": "arxiv:2609.38426",
@@ -725,6 +725,28 @@
         "Robot manipulation"
       ],
       "discovered_on": "2026-10-11"
+    },
+    {
+      "id": "arxiv:2610.10178",
+      "title": "Do Vision-Language-Action Models Understand Instructions?",
+      "type": "Research Paper",
+      "date": "2026-10-07",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.10178",
+      "pdf_url": "https://arxiv.org/pdf/2610.10178.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "VLM / LVLM",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Instruction understanding",
+        "Activation patching",
+        "Attribution patching",
+        "Robotics"
+      ],
+      "discovered_on": "2026-10-12"
     }
   ]
 }
