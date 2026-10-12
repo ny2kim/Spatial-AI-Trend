@@ -747,6 +747,127 @@
         "Robotics"
       ],
       "discovered_on": "2026-10-12"
+    },
+    {
+      "id": "arxiv:2609.39920",
+      "title": "MCD: Causal Distillation of Multimodal In-Context Learning in Large Vision-Language Models",
+      "type": "High-impact recent paper",
+      "date": "2026-09-30",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2609.39920",
+      "pdf_url": "https://arxiv.org/pdf/2609.39920.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Multimodal ICL"
+      ],
+      "tags": [
+        "Causal evidence",
+        "Multimodal ICL",
+        "Knowledge distillation"
+      ],
+      "discovered_on": "2026-10-12"
+    },
+    {
+      "id": "arxiv:2609.34563",
+      "title": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
+      "type": "High-impact recent paper",
+      "date": "2026-09-28",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2609.34563",
+      "pdf_url": "https://arxiv.org/pdf/2609.34563.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Visual reasoning",
+        "Latent tokens",
+        "Evidence grounding"
+      ],
+      "discovered_on": "2026-10-12"
+    },
+    {
+      "id": "arxiv:2609.16074",
+      "title": "World-Action Models for Robot Learning and Control: A Survey",
+      "type": "High-impact recent paper",
+      "date": "2026-09-13",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2609.16074",
+      "pdf_url": "https://arxiv.org/pdf/2609.16074.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models"
+      ],
+      "tags": [
+        "WAM taxonomy",
+        "Robotics",
+        "Survey"
+      ],
+      "discovered_on": "2026-10-12"
+    },
+    {
+      "id": "arxiv:2609.31349",
+      "title": "DyMD: Preserving Interaction Dynamics through Distribution Matching Distillation in Few-Step Video World Models",
+      "type": "High-impact recent paper",
+      "date": "2026-09-25",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2609.31349",
+      "pdf_url": "https://arxiv.org/pdf/2609.31349.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "Generative Modeling",
+        "VLA / Embodied"
+      ],
+      "tags": [
+        "Distillation",
+        "Video generation",
+        "Embodied prediction"
+      ],
+      "discovered_on": "2026-10-12"
+    },
+    {
+      "id": "arxiv:2609.24997",
+      "title": "VideoGen-Agent: Reinforcing Video Generation Agents",
+      "type": "High-impact recent paper",
+      "date": "2026-09-21",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2609.24997",
+      "pdf_url": "https://arxiv.org/pdf/2609.24997.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Generative Modeling"
+      ],
+      "tags": [
+        "Tool-use agent",
+        "Video generation",
+        "Reinforcement learning"
+      ],
+      "discovered_on": "2026-10-12"
+    },
+    {
+      "id": "arxiv:2609.30210",
+      "title": "The Alignment Illusion in Multimodal Large Language Models",
+      "type": "High-impact recent paper",
+      "date": "2026-09-27",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2609.30210",
+      "pdf_url": "https://arxiv.org/pdf/2609.30210.pdf",
+      "topics": [
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Visual grounding",
+        "Representation analysis",
+        "Multimodal safety"
+      ],
+      "discovered_on": "2026-10-12"
     }
   ]
 }
