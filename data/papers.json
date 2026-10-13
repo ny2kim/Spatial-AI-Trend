@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
-  "updated_at": "2026-10-12",
+  "updated_at": "2026-10-13",
   "papers": [
     {
       "id": "arxiv:2609.38426",
@@ -868,6 +868,167 @@
         "Multimodal safety"
       ],
       "discovered_on": "2026-10-12"
+    },
+    {
+      "id": "arxiv:2610.13790",
+      "title": "OccludeBench: Can VLMs Find What's Missing?",
+      "type": "Research Paper",
+      "date": "2026-10-09",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.13790",
+      "pdf_url": "https://arxiv.org/pdf/2610.13790.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Recent research"
+      ],
+      "discovered_on": "2026-10-13"
+    },
+    {
+      "id": "arxiv:2610.13527",
+      "title": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
+      "type": "Research Paper",
+      "date": "2026-10-09",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.13527",
+      "pdf_url": "https://arxiv.org/pdf/2610.13527.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Recent research"
+      ],
+      "discovered_on": "2026-10-13"
+    },
+    {
+      "id": "arxiv:2610.13945",
+      "title": "Splat2Act: From Captured Scenes to Personalized VLA Manipulation",
+      "type": "Research Paper",
+      "date": "2026-10-09",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.13945",
+      "pdf_url": "https://arxiv.org/pdf/2610.13945.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "Recent research"
+      ],
+      "discovered_on": "2026-10-13"
+    },
+    {
+      "id": "arxiv:2610.13732",
+      "title": "LAPT-Scale: Scaling Embodied Policies with Latent Action Pre-Training on Human Videos",
+      "type": "Research Paper",
+      "date": "2026-10-09",
+      "year": 2026,
+      "venue": "CoRL 2026",
+      "source_url": "https://arxiv.org/abs/2610.13732",
+      "pdf_url": "https://arxiv.org/pdf/2610.13732.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World-Action Models"
+      ],
+      "tags": [
+        "Recent research"
+      ],
+      "discovered_on": "2026-10-13"
+    },
+    {
+      "id": "arxiv:2610.13781",
+      "title": "SimVTA: Simulation-Grounded Video-Trajectory Alignment for Driving World Action Models",
+      "type": "Research Paper",
+      "date": "2026-10-09",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.13781",
+      "pdf_url": "https://arxiv.org/pdf/2610.13781.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "Recent research"
+      ],
+      "discovered_on": "2026-10-13"
+    },
+    {
+      "id": "arxiv:2610.13636",
+      "title": "Benchmarking Answer-Grounding Consistency in Remote Sensing Visual Question Answering",
+      "type": "Research Paper",
+      "date": "2026-10-09",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.13636",
+      "pdf_url": "https://arxiv.org/pdf/2610.13636.pdf",
+      "topics": [
+        "Geospatial AI",
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Recent research"
+      ],
+      "discovered_on": "2026-10-13"
+    },
+    {
+      "id": "arxiv:2610.13889",
+      "title": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
+      "type": "Research Paper",
+      "date": "2026-10-09",
+      "year": 2026,
+      "venue": "CIKM 2026",
+      "source_url": "https://arxiv.org/abs/2610.13889",
+      "pdf_url": "https://arxiv.org/pdf/2610.13889.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Recent research"
+      ],
+      "discovered_on": "2026-10-13"
+    },
+    {
+      "id": "arxiv:2610.13944",
+      "title": "InstantFusion: A Shared Latent Interface for Heterogeneous Image Generators",
+      "type": "Research Paper",
+      "date": "2026-10-09",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.13944",
+      "pdf_url": "https://arxiv.org/pdf/2610.13944.pdf",
+      "topics": [
+        "Generative Modeling"
+      ],
+      "tags": [
+        "Recent research"
+      ],
+      "discovered_on": "2026-10-13"
+    },
+    {
+      "id": "arxiv:2610.13740",
+      "title": "SmolWAM: A Latent World-Action Model for Robotic Manipulation on Edge Devices",
+      "type": "Research Paper",
+      "date": "2026-10-09",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.13740",
+      "pdf_url": "https://arxiv.org/pdf/2610.13740.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "Recent research"
+      ],
+      "discovered_on": "2026-10-13"
     }
   ]
 }
