@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
-  "updated_at": "2026-10-13",
+  "updated_at": "2026-10-15",
   "papers": [
     {
       "id": "arxiv:2609.38426",
@@ -1029,6 +1029,378 @@
         "Recent research"
       ],
       "discovered_on": "2026-10-13"
+    },
+    {
+      "id": "arxiv:2610.18858",
+      "title": "Visual Tokens on Demand: Visual Budgeting for Scalable and Efficient Multi-Image Reasoning in Multimodal LLMs",
+      "type": "Research Paper",
+      "date": "2026-10-13",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.18858",
+      "pdf_url": "https://arxiv.org/pdf/2610.18858.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Multi-view VLM",
+        "Visual Memory"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "Multi-view VLM",
+        "Visual Memory",
+        "Research"
+      ],
+      "discovered_on": "2026-10-15"
+    },
+    {
+      "id": "arxiv:2610.18694",
+      "title": "GeoReader: Learning Latent Geometry for Spatial Reasoning in Vision-Language Models",
+      "type": "Research Paper",
+      "date": "2026-10-13",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.18694",
+      "pdf_url": "https://arxiv.org/pdf/2610.18694.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "Spatial Reasoning",
+        "Research"
+      ],
+      "discovered_on": "2026-10-15"
+    },
+    {
+      "id": "arxiv:2610.18836",
+      "title": "Plan-Bench: Can Existing VLMs Go Well Beyond Perception to Reason and Plan in Embodied Worlds?",
+      "type": "Research Paper",
+      "date": "2026-10-13",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.18836",
+      "pdf_url": "https://arxiv.org/pdf/2610.18836.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "VLA / Embodied",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "VLA / Embodied",
+        "Spatial Reasoning",
+        "Research"
+      ],
+      "discovered_on": "2026-10-15"
+    },
+    {
+      "id": "arxiv:2610.18615",
+      "title": "VideoJev: System One Model for Video Understanding and Interaction",
+      "type": "Research Paper",
+      "date": "2026-10-13",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.18615",
+      "pdf_url": "https://arxiv.org/pdf/2610.18615.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Agentic VLM",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "Agentic VLM",
+        "Decision Models / System-One",
+        "Research"
+      ],
+      "discovered_on": "2026-10-15"
+    },
+    {
+      "id": "arxiv:2610.18499",
+      "title": "EgoOmniWorld: Unifying Egocentric Understanding via Ego-Action-World Interactions",
+      "type": "Research Paper",
+      "date": "2026-10-13",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.18499",
+      "pdf_url": "https://arxiv.org/pdf/2610.18499.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "VLA / Embodied",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "Research"
+      ],
+      "discovered_on": "2026-10-15"
+    },
+    {
+      "id": "arxiv:2610.18873",
+      "title": "LoopWAM: Closed-Loop Generalist Policy Improvement from Deployment Rollouts",
+      "type": "Research Paper",
+      "date": "2026-10-13",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.18873",
+      "pdf_url": "https://arxiv.org/pdf/2610.18873.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models",
+        "Research"
+      ],
+      "discovered_on": "2026-10-15"
+    },
+    {
+      "id": "arxiv:2610.18852",
+      "title": "ForceWAM: Decoupling Future and Response Learning from Demo and Play Data for Contact-Rich Manipulation",
+      "type": "Research Paper",
+      "date": "2026-10-13",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.18852",
+      "pdf_url": "https://arxiv.org/pdf/2610.18852.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models",
+        "Research"
+      ],
+      "discovered_on": "2026-10-15"
+    },
+    {
+      "id": "arxiv:2610.18866",
+      "title": "AutoAgent0: An Agentic Runtime for Safe Closed-Loop Driving",
+      "type": "Research Paper",
+      "date": "2026-10-13",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.18866",
+      "pdf_url": "https://arxiv.org/pdf/2610.18866.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Agentic Models / AI Agents",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "Agentic Models / AI Agents",
+        "World Models / Physical AI",
+        "Research"
+      ],
+      "discovered_on": "2026-10-15"
+    },
+    {
+      "id": "arxiv:2610.18867",
+      "title": "EmbodiedEvo: Self-Evolving Coding Agent For Physical Intelligence",
+      "type": "Research Paper",
+      "date": "2026-10-13",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.18867",
+      "pdf_url": "https://arxiv.org/pdf/2610.18867.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "Agentic Models / AI Agents",
+        "Research"
+      ],
+      "discovered_on": "2026-10-15"
+    },
+    {
+      "id": "arxiv:2610.18869",
+      "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
+      "type": "Research Paper",
+      "date": "2026-10-13",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.18869",
+      "pdf_url": "https://arxiv.org/pdf/2610.18869.pdf",
+      "topics": [
+        "VLA / Embodied"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "Research"
+      ],
+      "discovered_on": "2026-10-15"
+    },
+    {
+      "id": "arxiv:2610.18845",
+      "title": "The Last Remote Sensing Model Built by Humans? Casting Any Earth Observation Task as Recursive Self-Improvement",
+      "type": "Research Paper",
+      "date": "2026-10-13",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.18845",
+      "pdf_url": "https://arxiv.org/pdf/2610.18845.pdf",
+      "topics": [
+        "Geospatial AI",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Geospatial AI",
+        "Agentic Models / AI Agents",
+        "Research"
+      ],
+      "discovered_on": "2026-10-15"
+    },
+    {
+      "id": "arxiv:2610.18789",
+      "title": "Trust Before Autonomy: Rethinking Agentic Remote Sensing for Crisis Response",
+      "type": "Research Paper",
+      "date": "2026-10-13",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.18789",
+      "pdf_url": "https://arxiv.org/pdf/2610.18789.pdf",
+      "topics": [
+        "Geospatial AI",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Geospatial AI",
+        "Agentic Models / AI Agents",
+        "Research"
+      ],
+      "discovered_on": "2026-10-15"
+    },
+    {
+      "id": "arxiv:2610.18773",
+      "title": "Jeva: System One Models from First Principles",
+      "type": "Research Paper",
+      "date": "2026-10-13",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.18773",
+      "pdf_url": "https://arxiv.org/pdf/2610.18773.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One",
+        "Research"
+      ],
+      "discovered_on": "2026-10-15"
+    },
+    {
+      "id": "arxiv:2610.18813",
+      "title": "Self-Evolving Agent Harness",
+      "type": "Research Paper",
+      "date": "2026-10-13",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.18813",
+      "pdf_url": "https://arxiv.org/pdf/2610.18813.pdf",
+      "topics": [
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Agentic Models / AI Agents",
+        "Research"
+      ],
+      "discovered_on": "2026-10-15"
+    },
+    {
+      "id": "arxiv:2610.18688",
+      "title": "RSIgen: Reciprocal Self-Improvement for Agentic Visual Generation",
+      "type": "Research Paper",
+      "date": "2026-10-13",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.18688",
+      "pdf_url": "https://arxiv.org/pdf/2610.18688.pdf",
+      "topics": [
+        "Generative Modeling",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Generative Modeling",
+        "Agentic Models / AI Agents",
+        "Research"
+      ],
+      "discovered_on": "2026-10-15"
+    },
+    {
+      "id": "arxiv:2610.18857",
+      "title": "PixelMoE: Scaling Pixel-Space Diffusion with LLM-Style Mixture-of-Experts",
+      "type": "Research Paper",
+      "date": "2026-10-13",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.18857",
+      "pdf_url": "https://arxiv.org/pdf/2610.18857.pdf",
+      "topics": [
+        "Generative Modeling"
+      ],
+      "tags": [
+        "Generative Modeling",
+        "Research"
+      ],
+      "discovered_on": "2026-10-15"
+    },
+    {
+      "id": "arxiv:2610.18846",
+      "title": "WorldRecon: Generative Multi-View Mesh Reconstruction for Large-Scale 3D World",
+      "type": "Research Paper",
+      "date": "2026-10-13",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.18846",
+      "pdf_url": "https://arxiv.org/pdf/2610.18846.pdf",
+      "topics": [
+        "Generative Modeling",
+        "World Models / Physical AI",
+        "Multi-view VLM"
+      ],
+      "tags": [
+        "Generative Modeling",
+        "World Models / Physical AI",
+        "Multi-view VLM",
+        "Research"
+      ],
+      "discovered_on": "2026-10-15"
+    },
+    {
+      "id": "arxiv:2607.14935",
+      "title": "VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding",
+      "type": "High-impact recent paper",
+      "date": "2026-07-17",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2607.14935",
+      "pdf_url": "https://arxiv.org/pdf/2607.14935.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Visual Memory",
+        "Agentic VLM"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "Visual Memory",
+        "Agentic VLM",
+        "Research"
+      ],
+      "discovered_on": "2026-10-15"
     }
   ]
 }
