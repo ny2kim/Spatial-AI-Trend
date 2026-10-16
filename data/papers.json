@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
-  "updated_at": "2026-10-15",
+  "updated_at": "2026-10-16",
   "papers": [
     {
       "id": "arxiv:2609.38426",
@@ -1384,7 +1384,7 @@
       "id": "arxiv:2607.14935",
       "title": "VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding",
       "type": "High-impact recent paper",
-      "date": "2026-07-17",
+      "date": "2026-07-16",
       "year": 2026,
       "venue": "arXiv preprint",
       "source_url": "https://arxiv.org/abs/2607.14935",
@@ -1401,6 +1401,179 @@
         "Research"
       ],
       "discovered_on": "2026-10-15"
+    },
+    {
+      "id": "arxiv:2610.19825",
+      "title": "What Matters for World Modeling in Vision-Language-Action Models?",
+      "type": "Research Paper",
+      "date": "2026-10-14",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.19825",
+      "pdf_url": "https://arxiv.org/pdf/2610.19825.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models"
+      ],
+      "discovered_on": "2026-10-16"
+    },
+    {
+      "id": "arxiv:2610.12417",
+      "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
+      "type": "Research Paper",
+      "date": "2026-10-08",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.12417",
+      "pdf_url": "https://arxiv.org/pdf/2610.12417.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "Spatial Reasoning",
+        "World Models / Physical AI"
+      ],
+      "discovered_on": "2026-10-16"
+    },
+    {
+      "id": "arxiv:2610.16769",
+      "title": "Geospatial Vector Geometry as a Native Spatial Modality for Vision-Language Models",
+      "type": "Research Paper",
+      "date": "2026-10-12",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.16769",
+      "pdf_url": "https://arxiv.org/pdf/2610.16769.pdf",
+      "topics": [
+        "Geospatial AI",
+        "VLM / LVLM",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Geospatial AI",
+        "VLM / LVLM",
+        "Spatial Reasoning"
+      ],
+      "discovered_on": "2026-10-16"
+    },
+    {
+      "id": "arxiv:2610.12393",
+      "title": "HRIL: Learning Multimodal Synergy via Higher-Order Tensor Modeling",
+      "type": "High-impact recent paper",
+      "date": "2026-10-08",
+      "year": 2026,
+      "venue": "NeurIPS 2026 (accepted; arXiv)",
+      "source_url": "https://arxiv.org/abs/2610.12393",
+      "pdf_url": "https://arxiv.org/pdf/2610.12393.pdf",
+      "topics": [
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "VLM / LVLM"
+      ],
+      "discovered_on": "2026-10-16"
+    },
+    {
+      "id": "arxiv:2610.03213",
+      "title": "Toward SLM-based agentic task-tool intent matching",
+      "type": "Research Paper",
+      "date": "2026-10-02",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.03213",
+      "pdf_url": "https://arxiv.org/pdf/2610.03213.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "discovered_on": "2026-10-16"
+    },
+    {
+      "id": "arxiv:2610.19781",
+      "title": "SNACK: A Sequential Notation Framework for Probabilistic Graph Generation",
+      "type": "High-impact recent paper",
+      "date": "2026-10-14",
+      "year": 2026,
+      "venue": "NeurIPS 2026 (accepted; arXiv)",
+      "source_url": "https://arxiv.org/abs/2610.19781",
+      "pdf_url": "https://arxiv.org/pdf/2610.19781.pdf",
+      "topics": [
+        "Generative Modeling"
+      ],
+      "tags": [
+        "Generative Modeling"
+      ],
+      "discovered_on": "2026-10-16"
+    },
+    {
+      "id": "arxiv:2609.29964",
+      "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
+      "type": "High-impact recent paper",
+      "date": "2026-09-24",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2609.29964",
+      "pdf_url": "https://arxiv.org/pdf/2609.29964.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Agentic Models / AI Agents",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "Agentic Models / AI Agents",
+        "World Models / Physical AI"
+      ],
+      "discovered_on": "2026-10-16"
+    },
+    {
+      "id": "arxiv:2609.24787",
+      "title": "Toward a Foundation Model for Forest Point Clouds",
+      "type": "High-impact recent paper",
+      "date": "2026-09-21",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2609.24787",
+      "pdf_url": "https://arxiv.org/pdf/2609.24787.pdf",
+      "topics": [
+        "Geospatial AI",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Geospatial AI",
+        "Spatial Reasoning"
+      ],
+      "discovered_on": "2026-10-16"
+    },
+    {
+      "id": "arxiv:2605.07950",
+      "title": "Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation",
+      "type": "High-impact recent paper",
+      "date": "2026-05-08",
+      "year": 2026,
+      "venue": "NeurIPS 2026 (accepted; arXiv)",
+      "source_url": "https://arxiv.org/abs/2605.07950",
+      "pdf_url": "https://arxiv.org/pdf/2605.07950.pdf",
+      "topics": [
+        "Generative Modeling"
+      ],
+      "tags": [
+        "Generative Modeling"
+      ],
+      "discovered_on": "2026-10-16"
     }
   ]
 }
