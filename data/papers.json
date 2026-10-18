@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
-  "updated_at": "2026-10-16",
+  "updated_at": "2026-10-18",
   "papers": [
     {
       "id": "arxiv:2609.38426",
@@ -1574,6 +1574,299 @@
         "Generative Modeling"
       ],
       "discovered_on": "2026-10-16"
+    },
+    {
+      "id": "arxiv:2610.22276",
+      "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+      "type": "Research Paper",
+      "date": "2026-10-15",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.22276",
+      "pdf_url": "https://arxiv.org/pdf/2610.22276.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "System-One",
+        "single-pass spatial decisions"
+      ],
+      "discovered_on": "2026-10-18"
+    },
+    {
+      "id": "arxiv:2610.22200",
+      "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+      "type": "Research Paper",
+      "date": "2026-10-15",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.22200",
+      "pdf_url": "https://arxiv.org/pdf/2610.22200.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Agentic VLM"
+      ],
+      "tags": [
+        "computer use",
+        "harness",
+        "SDK"
+      ],
+      "discovered_on": "2026-10-18"
+    },
+    {
+      "id": "arxiv:2610.22356",
+      "title": "DK-VLM: Geometry as Position for Spatial Reasoning in Vision-Language Models",
+      "type": "Research Paper",
+      "date": "2026-10-15",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.22356",
+      "pdf_url": "https://arxiv.org/pdf/2610.22356.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning",
+        "Multi-view VLM"
+      ],
+      "tags": [
+        "3D geometry",
+        "dual-kernel attention"
+      ],
+      "discovered_on": "2026-10-18"
+    },
+    {
+      "id": "arxiv:2610.22182",
+      "title": "LAMP: Layerwise Adaptive Mixing of Predictors for Training-Free Few-Shot Vision-Language Adaptation",
+      "type": "Research Paper",
+      "date": "2026-10-15",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.22182",
+      "pdf_url": "https://arxiv.org/pdf/2610.22182.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Multimodal ICL"
+      ],
+      "tags": [
+        "training-free",
+        "few-shot"
+      ],
+      "discovered_on": "2026-10-18"
+    },
+    {
+      "id": "arxiv:2610.22075",
+      "title": "Retrofitting Recurrent Vision-Language Models from Pretrained Backbones",
+      "type": "Research Paper",
+      "date": "2026-10-15",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.22075",
+      "pdf_url": "https://arxiv.org/pdf/2610.22075.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Recurrent VLM"
+      ],
+      "tags": [
+        "recurrence",
+        "parameter efficiency"
+      ],
+      "discovered_on": "2026-10-18"
+    },
+    {
+      "id": "arxiv:2610.22070",
+      "title": "Memory as Weights: Internalizing Long-Term History for Streaming Videos",
+      "type": "Research Paper",
+      "date": "2026-10-15",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.22070",
+      "pdf_url": "https://arxiv.org/pdf/2610.22070.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Visual Memory",
+        "VLA / Embodied"
+      ],
+      "tags": [
+        "streaming video",
+        "LoRA memory"
+      ],
+      "discovered_on": "2026-10-18"
+    },
+    {
+      "id": "arxiv:2610.21902",
+      "title": "Seeing is Believing: Benchmarking and Mitigating the Interference of Language Priors on Visual Perception in MLLMs",
+      "type": "Research Paper",
+      "date": "2026-10-15",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.21902",
+      "pdf_url": "https://arxiv.org/pdf/2610.21902.pdf",
+      "topics": [
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "visual grounding",
+        "language priors"
+      ],
+      "discovered_on": "2026-10-18"
+    },
+    {
+      "id": "arxiv:2610.22363",
+      "title": "Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation",
+      "type": "Research Paper",
+      "date": "2026-10-15",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.22363",
+      "pdf_url": "https://arxiv.org/pdf/2610.22363.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models"
+      ],
+      "tags": [
+        "3D hand",
+        "video diffusion"
+      ],
+      "discovered_on": "2026-10-18"
+    },
+    {
+      "id": "arxiv:2610.22343",
+      "title": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
+      "type": "Research Paper",
+      "date": "2026-10-15",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.22343",
+      "pdf_url": "https://arxiv.org/pdf/2610.22343.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "Spatial Reasoning",
+        "VLA / Embodied"
+      ],
+      "tags": [
+        "3D geometry",
+        "camera decoupling"
+      ],
+      "discovered_on": "2026-10-18"
+    },
+    {
+      "id": "arxiv:2610.22311",
+      "title": "Velox: Spatial Memory Makes World Models Efficient",
+      "type": "Research Paper",
+      "date": "2026-10-15",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.22311",
+      "pdf_url": "https://arxiv.org/pdf/2610.22311.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "Generative Modeling",
+        "Visual Memory"
+      ],
+      "tags": [
+        "training-free",
+        "attention routing"
+      ],
+      "discovered_on": "2026-10-18"
+    },
+    {
+      "id": "arxiv:2610.22371",
+      "title": "Gen4P: Video Generators are 4D Perceivers",
+      "type": "Research Paper",
+      "date": "2026-10-15",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.22371",
+      "pdf_url": "https://arxiv.org/pdf/2610.22371.pdf",
+      "topics": [
+        "Generative Modeling",
+        "World Models / Physical AI",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "4D perception",
+        "video generator"
+      ],
+      "discovered_on": "2026-10-18"
+    },
+    {
+      "id": "arxiv:2610.22370",
+      "title": "Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation",
+      "type": "Research Paper",
+      "date": "2026-10-15",
+      "year": 2026,
+      "venue": "NeurIPS 2026 (accepted)",
+      "source_url": "https://arxiv.org/abs/2610.22370",
+      "pdf_url": "https://arxiv.org/pdf/2610.22370.pdf",
+      "topics": [
+        "Generative Modeling"
+      ],
+      "tags": [
+        "NeurIPS 2026",
+        "training-free"
+      ],
+      "discovered_on": "2026-10-18"
+    },
+    {
+      "id": "arxiv:2610.21993",
+      "title": "Data-Efficient ConvNeXt Pretraining for High-Resolution Sentinel-1 GRD SAR Representation Learning",
+      "type": "Research Paper",
+      "date": "2026-10-15",
+      "year": 2026,
+      "venue": "arXiv (SPIE Asia Pacific Remote Sensing 2026 preliminary)",
+      "source_url": "https://arxiv.org/abs/2610.21993",
+      "pdf_url": "https://arxiv.org/pdf/2610.21993.pdf",
+      "topics": [
+        "Geospatial AI"
+      ],
+      "tags": [
+        "SAR",
+        "self-supervised",
+        "Sentinel-1"
+      ],
+      "discovered_on": "2026-10-18"
+    },
+    {
+      "id": "arxiv:2610.22240",
+      "title": "MMSearch-OPD: Easy Made Hard, Hard Made Learnable for Long-Horizon Multimodal Search Agents",
+      "type": "Research Paper",
+      "date": "2026-10-15",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.22240",
+      "pdf_url": "https://arxiv.org/pdf/2610.22240.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Agentic VLM",
+        "Visual Search"
+      ],
+      "tags": [
+        "multimodal search",
+        "RL"
+      ],
+      "discovered_on": "2026-10-18"
+    },
+    {
+      "id": "arxiv:2610.21882",
+      "title": "Anvil: Scaling Embodied Spatial Intelligence through Knowledge Recirculation",
+      "type": "Research Paper",
+      "date": "2026-10-15",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.21882",
+      "pdf_url": "https://arxiv.org/pdf/2610.21882.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Spatial Reasoning",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "ground-relation-act",
+        "data flywheel"
+      ],
+      "discovered_on": "2026-10-18"
     }
   ]
 }
