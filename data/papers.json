@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
-  "updated_at": "2026-10-18",
+  "updated_at": "2026-10-19",
   "papers": [
     {
       "id": "arxiv:2609.38426",
@@ -1867,6 +1867,317 @@
         "data flywheel"
       ],
       "discovered_on": "2026-10-18"
+    },
+    {
+      "id": "arxiv:2610.23324",
+      "title": "CatchUp: Depth-Aware Re-Admission of Visual Tokens for Efficient Large Vision-Language Models",
+      "type": "Research Paper",
+      "date": "2026-10-16",
+      "year": 2026,
+      "venue": "WACV 2027 (accepted; arXiv Oct 16)",
+      "source_url": "https://arxiv.org/abs/2610.23324",
+      "pdf_url": "https://arxiv.org/pdf/2610.23324.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Visual Search"
+      ],
+      "tags": [
+        "Training-free",
+        "Token routing",
+        "Code released"
+      ],
+      "discovered_on": "2026-10-19"
+    },
+    {
+      "id": "arxiv:2610.23479",
+      "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+      "type": "Research Paper",
+      "date": "2026-10-16",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.23479",
+      "pdf_url": "https://arxiv.org/pdf/2610.23479.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "VLA / Embodied",
+        "Agentic Models / AI Agents",
+        "Multi-view VLM"
+      ],
+      "tags": [
+        "RGB cameras",
+        "Robot coding agents",
+        "Open tools"
+      ],
+      "discovered_on": "2026-10-19"
+    },
+    {
+      "id": "arxiv:2610.23662",
+      "title": "Learning Robot Metareasoning: Adaptive Computation Budgets for Real-Time Control",
+      "type": "Research Paper",
+      "date": "2026-10-16",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.23662",
+      "pdf_url": "https://arxiv.org/pdf/2610.23662.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Metareasoning",
+        "Adaptive compute",
+        "Control"
+      ],
+      "discovered_on": "2026-10-19"
+    },
+    {
+      "id": "arxiv:2610.23622",
+      "title": "Foundation-Model-Driven 3D Scene Graphs for Mobile Manipulation",
+      "type": "Research Paper",
+      "date": "2026-10-16",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.23622",
+      "pdf_url": "https://arxiv.org/pdf/2610.23622.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Spatial Reasoning",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "3D scene graph",
+        "Spatial memory",
+        "Robotics"
+      ],
+      "discovered_on": "2026-10-19"
+    },
+    {
+      "id": "arxiv:2610.23795",
+      "title": "Persistent Planar Memory for Video World Models",
+      "type": "Research Paper",
+      "date": "2026-10-16",
+      "year": 2026,
+      "venue": "NeurIPS 2026 (accepted; arXiv Oct 16)",
+      "source_url": "https://arxiv.org/abs/2610.23795",
+      "pdf_url": "https://arxiv.org/pdf/2610.23795.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "Generative Modeling",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "3D memory",
+        "Video diffusion",
+        "NeurIPS 2026"
+      ],
+      "discovered_on": "2026-10-19"
+    },
+    {
+      "id": "arxiv:2610.23542",
+      "title": "Execution Before Memory: Diagnosing Memory Failures in Video World Models",
+      "type": "Research Paper",
+      "date": "2026-10-16",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.23542",
+      "pdf_url": "https://arxiv.org/pdf/2610.23542.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "Generative Modeling",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Video memory",
+        "MIST benchmark",
+        "M3-Agent"
+      ],
+      "discovered_on": "2026-10-19"
+    },
+    {
+      "id": "arxiv:2610.23377",
+      "title": "FloodVLM-Pix: Language-Guided Pixel-Level Flood Understanding",
+      "type": "Research Paper",
+      "date": "2026-10-16",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.23377",
+      "pdf_url": "https://arxiv.org/pdf/2610.23377.pdf",
+      "topics": [
+        "Geospatial AI",
+        "VLM / LVLM",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Flood segmentation",
+        "Remote sensing",
+        "Benchmark"
+      ],
+      "discovered_on": "2026-10-19"
+    },
+    {
+      "id": "arxiv:2610.23416",
+      "title": "GeoReason: Bridging Logical Reasoning and Spatial Fidelity in Remote Sensing Segmentation",
+      "type": "Research Paper",
+      "date": "2026-10-16",
+      "year": 2026,
+      "venue": "NeurIPS 2026 (accepted; arXiv Oct 16)",
+      "source_url": "https://arxiv.org/abs/2610.23416",
+      "pdf_url": "https://arxiv.org/pdf/2610.23416.pdf",
+      "topics": [
+        "Geospatial AI",
+        "VLM / LVLM",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Remote sensing segmentation",
+        "Logic",
+        "NeurIPS 2026"
+      ],
+      "discovered_on": "2026-10-19"
+    },
+    {
+      "id": "arxiv:2610.23554",
+      "title": "SkillBrowser: Selective Skill Exposure for Scalable Skill-Using Agents",
+      "type": "Research Paper",
+      "date": "2026-10-16",
+      "year": 2026,
+      "venue": "arXiv preprint (ACL Rolling Review submission)",
+      "source_url": "https://arxiv.org/abs/2610.23554",
+      "pdf_url": "https://arxiv.org/pdf/2610.23554.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Skill router",
+        "Context efficiency",
+        "Meta-skill"
+      ],
+      "discovered_on": "2026-10-19"
+    },
+    {
+      "id": "arxiv:2610.23449",
+      "title": "GatewayBench: Unified Capability and Security Evaluation Platform for MCP Gateways",
+      "type": "Research Paper",
+      "date": "2026-10-16",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.23449",
+      "pdf_url": "https://arxiv.org/pdf/2610.23449.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "MCP gateways",
+        "Tool governance",
+        "Security benchmark"
+      ],
+      "discovered_on": "2026-10-19"
+    },
+    {
+      "id": "arxiv:2610.23707",
+      "title": "Tool Recommendation for Multi-Step Agents: Finding Every Tool a Task Needs",
+      "type": "Research Paper",
+      "date": "2026-10-16",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.23707",
+      "pdf_url": "https://arxiv.org/pdf/2610.23707.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Tool discovery",
+        "MCP",
+        "Consent gating"
+      ],
+      "discovered_on": "2026-10-19"
+    },
+    {
+      "id": "arxiv:2610.23598",
+      "title": "RL-Guided Temporal Localization for Dual-Channel Retrieval in Long-Horizon Agent Memory",
+      "type": "Research Paper",
+      "date": "2026-10-16",
+      "year": 2026,
+      "venue": "NeurIPS 2026 (accepted; arXiv Oct 16)",
+      "source_url": "https://arxiv.org/abs/2610.23598",
+      "pdf_url": "https://arxiv.org/pdf/2610.23598.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Visual Memory"
+      ],
+      "tags": [
+        "Temporal retrieval",
+        "Agent memory",
+        "NeurIPS 2026"
+      ],
+      "discovered_on": "2026-10-19"
+    },
+    {
+      "id": "arxiv:2610.23677",
+      "title": "Agentic Physics-Grounded Video Generation via Memory-Augmented In-Context Reasoning",
+      "type": "Research Paper",
+      "date": "2026-10-16",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.23677",
+      "pdf_url": "https://arxiv.org/pdf/2610.23677.pdf",
+      "topics": [
+        "Generative Modeling",
+        "World Models / Physical AI",
+        "Agentic Models / AI Agents",
+        "Multimodal ICL"
+      ],
+      "tags": [
+        "PhysRepair",
+        "Video editing",
+        "Memory-augmented ICL"
+      ],
+      "discovered_on": "2026-10-19"
+    },
+    {
+      "id": "arxiv:2610.23856",
+      "title": "Learning to Correct Geometry in Generated Videos",
+      "type": "Research Paper",
+      "date": "2026-10-16",
+      "year": 2026,
+      "venue": "NeurIPS 2026 (accepted; arXiv Oct 16)",
+      "source_url": "https://arxiv.org/abs/2610.23856",
+      "pdf_url": "https://arxiv.org/pdf/2610.23856.pdf",
+      "topics": [
+        "Generative Modeling",
+        "World Models / Physical AI",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Video geometry",
+        "Camera motion",
+        "NeurIPS 2026"
+      ],
+      "discovered_on": "2026-10-19"
+    },
+    {
+      "id": "arxiv:2610.23374",
+      "title": "MOSS-Image Technical Report",
+      "type": "Research Paper",
+      "date": "2026-10-16",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.23374",
+      "pdf_url": "https://arxiv.org/pdf/2610.23374.pdf",
+      "topics": [
+        "Generative Modeling",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Open weights",
+        "Text-to-image",
+        "Layout control"
+      ],
+      "discovered_on": "2026-10-19"
     }
   ]
 }
