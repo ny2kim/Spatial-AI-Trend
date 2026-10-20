@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
-  "updated_at": "2026-10-19",
+  "updated_at": "2026-10-20",
   "papers": [
     {
       "id": "arxiv:2609.38426",
@@ -2178,6 +2178,304 @@
         "Layout control"
       ],
       "discovered_on": "2026-10-19"
+    },
+    {
+      "id": "arxiv:2610.26584",
+      "title": "HAF-VLA: Hierarchical Action Flow Framework for Humanoid Vision-Language-Action Control",
+      "type": "Research Paper",
+      "date": "2026-10-19",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.26584",
+      "pdf_url": "https://arxiv.org/pdf/2610.26584.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "Humanoid",
+        "Hierarchical control"
+      ],
+      "discovered_on": "2026-10-20"
+    },
+    {
+      "id": "arxiv:2610.26487",
+      "title": "SPAR: Structural Pruning and Action Recovery for Vision-Language-Action Models",
+      "type": "Research Paper",
+      "date": "2026-10-19",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.26487",
+      "pdf_url": "https://arxiv.org/pdf/2610.26487.pdf",
+      "topics": [
+        "VLA / Embodied"
+      ],
+      "tags": [
+        "Compression",
+        "RL",
+        "LIBERO"
+      ],
+      "discovered_on": "2026-10-20"
+    },
+    {
+      "id": "arxiv:2610.25961",
+      "title": "PaceVLA: Adaptive Temporal Action Quantization in Vision-Language-Action Models",
+      "type": "Research Paper",
+      "date": "2026-10-19",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.25961",
+      "pdf_url": "https://arxiv.org/pdf/2610.25961.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Adaptive actions",
+        "Router"
+      ],
+      "discovered_on": "2026-10-20"
+    },
+    {
+      "id": "arxiv:2610.25734",
+      "title": "Think Densely, Act Sparsely: Latent Expert Cognitive Chains for Vision-Language-Action Autonomous Driving",
+      "type": "Research Paper",
+      "date": "2026-10-19",
+      "year": 2026,
+      "venue": "NeurIPS 2026 (per arXiv authors)",
+      "source_url": "https://arxiv.org/abs/2610.25734",
+      "pdf_url": "https://arxiv.org/pdf/2610.25734.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "VLA / Embodied",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "NeurIPS 2026",
+        "Geometry",
+        "Driving"
+      ],
+      "discovered_on": "2026-10-20"
+    },
+    {
+      "id": "arxiv:2610.25959",
+      "title": "EmbodiedWorld-200K: Toward Embodied World Agents via Embodied-Planning Dataset and Interactive World Models",
+      "type": "Research Paper",
+      "date": "2026-10-19",
+      "year": 2026,
+      "venue": "NeurIPS 2026 (per arXiv authors)",
+      "source_url": "https://arxiv.org/abs/2610.25959",
+      "pdf_url": "https://arxiv.org/pdf/2610.25959.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "NeurIPS 2026",
+        "200K data",
+        "Interactive RL"
+      ],
+      "discovered_on": "2026-10-20"
+    },
+    {
+      "id": "arxiv:2610.25918",
+      "title": "LEAP: Accelerating ODE-based Diffusion Sampling with Optimal Linear Leaps",
+      "type": "Research Paper",
+      "date": "2026-10-19",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.25918",
+      "pdf_url": "https://arxiv.org/pdf/2610.25918.pdf",
+      "topics": [
+        "Generative Modeling"
+      ],
+      "tags": [
+        "Diffusion",
+        "Training-free",
+        "ODE"
+      ],
+      "discovered_on": "2026-10-20"
+    },
+    {
+      "id": "arxiv:2610.26244",
+      "title": "RECAP: Reciprocal Sparse Attention and Hierarchical Caching for Efficient Video Diffusion",
+      "type": "Research Paper",
+      "date": "2026-10-19",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.26244",
+      "pdf_url": "https://arxiv.org/pdf/2610.26244.pdf",
+      "topics": [
+        "Generative Modeling",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "Video diffusion",
+        "Caching",
+        "Training-free"
+      ],
+      "discovered_on": "2026-10-20"
+    },
+    {
+      "id": "arxiv:2610.25645",
+      "title": "Negation without Confusion: Decomposing Bias and Recomposing Style in Text Embeddings for Negation-aware Image Generation",
+      "type": "Research Paper",
+      "date": "2026-10-19",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.25645",
+      "pdf_url": "https://arxiv.org/pdf/2610.25645.pdf",
+      "topics": [
+        "Generative Modeling",
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Negation",
+        "Training-free",
+        "Text-to-image"
+      ],
+      "discovered_on": "2026-10-20"
+    },
+    {
+      "id": "arxiv:2610.25779",
+      "title": "OpenSaC: A Python Library for Search as Code in Deep Research Agents",
+      "type": "Research Paper",
+      "date": "2026-10-19",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.25779",
+      "pdf_url": "https://arxiv.org/pdf/2610.25779.pdf",
+      "topics": [
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Search as Code",
+        "Agent skill",
+        "SDK"
+      ],
+      "discovered_on": "2026-10-20"
+    },
+    {
+      "id": "arxiv:2610.25552",
+      "title": "Symbolic Constraint Agents: Mining Formal Tool-Call Constraints to Prevent Agent Errors",
+      "type": "Research Paper",
+      "date": "2026-10-18",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.25552",
+      "pdf_url": "https://arxiv.org/pdf/2610.25552.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Tool gating",
+        "SMT",
+        "Validation"
+      ],
+      "discovered_on": "2026-10-20"
+    },
+    {
+      "id": "arxiv:2610.24311",
+      "title": "RATION: Towards Quantitative Risk-Based Access Control for AI Agents",
+      "type": "Research Paper",
+      "date": "2026-10-16",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.24311",
+      "pdf_url": "https://arxiv.org/pdf/2610.24311.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Access control",
+        "Risk budgets",
+        "Agent governance"
+      ],
+      "discovered_on": "2026-10-20"
+    },
+    {
+      "id": "arxiv:2610.24194",
+      "title": "Agents' Last Doubt: Knowing When to Act and When to Step Back in Tool-Using Agents",
+      "type": "Research Paper",
+      "date": "2026-10-16",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.24194",
+      "pdf_url": "https://arxiv.org/pdf/2610.24194.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Escalation",
+        "Counterfactual",
+        "ToolSandbox"
+      ],
+      "discovered_on": "2026-10-20"
+    },
+    {
+      "id": "arxiv:2610.25429",
+      "title": "Preserving the Manifold: Frozen Expert Alignment for Label-Efficient SAR Scene Understanding",
+      "type": "Research Paper",
+      "date": "2026-10-18",
+      "year": 2026,
+      "venue": "arXiv; ECCV 2026 TerraBytes II workshop version",
+      "source_url": "https://arxiv.org/abs/2610.25429",
+      "pdf_url": "https://arxiv.org/pdf/2610.25429.pdf",
+      "topics": [
+        "Geospatial AI",
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "SAR",
+        "Cross-modal alignment",
+        "Frozen encoder"
+      ],
+      "discovered_on": "2026-10-20"
+    },
+    {
+      "id": "arxiv:2610.23972",
+      "title": "Super-resolution as Spatial Downscaling: Coherence, Structure and Task Utility in Earth Observation",
+      "type": "Research Paper",
+      "date": "2026-10-12",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.23972",
+      "pdf_url": "https://arxiv.org/pdf/2610.23972.pdf",
+      "topics": [
+        "Geospatial AI",
+        "Generative Modeling"
+      ],
+      "tags": [
+        "Earth observation",
+        "Super-resolution",
+        "Spatial fidelity"
+      ],
+      "discovered_on": "2026-10-20"
+    },
+    {
+      "id": "arxiv:2610.25273",
+      "title": "GeoART: Geometry-Aware Refinement via Test-Time Scaling for Camera-Conditioned Video Diffusion",
+      "type": "Research Paper",
+      "date": "2026-10-18",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.25273",
+      "pdf_url": "https://arxiv.org/pdf/2610.25273.pdf",
+      "topics": [
+        "Generative Modeling",
+        "World Models / Physical AI",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Video diffusion",
+        "Camera control",
+        "Training-free"
+      ],
+      "discovered_on": "2026-10-20"
     }
   ]
 }
