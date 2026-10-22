@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
-  "updated_at": "2026-10-20",
+  "updated_at": "2026-10-21",
   "papers": [
     {
       "id": "arxiv:2609.38426",
@@ -2476,6 +2476,348 @@
         "Training-free"
       ],
       "discovered_on": "2026-10-20"
+    },
+    {
+      "id": "arxiv:2610.27041",
+      "title": "Robustness of Internal Signals for Hallucination Detection",
+      "type": "Research Paper",
+      "date": "2026-10-19",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.27041",
+      "pdf_url": "https://arxiv.org/pdf/2610.27041.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Visual evidence",
+        "Hallucination"
+      ],
+      "discovered_on": "2026-10-21"
+    },
+    {
+      "id": "arxiv:2610.27341",
+      "title": "Look Before You Reason (LoRe)",
+      "type": "Research Paper",
+      "date": "2026-10-19",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.27341",
+      "pdf_url": "https://arxiv.org/pdf/2610.27341.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Visual reasoning",
+        "KV cache"
+      ],
+      "discovered_on": "2026-10-21"
+    },
+    {
+      "id": "arxiv:2610.26910",
+      "title": "Memory Internalization via Test-Time Training",
+      "type": "Research Paper",
+      "date": "2026-10-19",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.26910",
+      "pdf_url": "https://arxiv.org/pdf/2610.26910.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Visual Memory"
+      ],
+      "tags": [
+        "Video memory",
+        "Test-time training"
+      ],
+      "discovered_on": "2026-10-21"
+    },
+    {
+      "id": "arxiv:2610.28622",
+      "title": "MindView",
+      "type": "Research Paper",
+      "date": "2026-10-20",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.28622",
+      "pdf_url": "https://arxiv.org/pdf/2610.28622.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Multi-view VLM",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Multi-view",
+        "Evidence selection"
+      ],
+      "discovered_on": "2026-10-21"
+    },
+    {
+      "id": "arxiv:2610.27003",
+      "title": "Replan for Error Recovery",
+      "type": "Research Paper",
+      "date": "2026-10-19",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.27003",
+      "pdf_url": "https://arxiv.org/pdf/2610.27003.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "Recovery",
+        "Robot planning"
+      ],
+      "discovered_on": "2026-10-21"
+    },
+    {
+      "id": "arxiv:2610.27040",
+      "title": "ACE-Brain-0.6",
+      "type": "Research Paper",
+      "date": "2026-10-19",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.27040",
+      "pdf_url": "https://arxiv.org/pdf/2610.27040.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Spatial grounding",
+        "Embodied"
+      ],
+      "discovered_on": "2026-10-21"
+    },
+    {
+      "id": "arxiv:2610.28613",
+      "title": "Physical Canvas (PhysCanvas)",
+      "type": "Research Paper",
+      "date": "2026-10-20",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.28613",
+      "pdf_url": "https://arxiv.org/pdf/2610.28613.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "VLA / Embodied"
+      ],
+      "tags": [
+        "Tactile",
+        "Video prediction"
+      ],
+      "discovered_on": "2026-10-21"
+    },
+    {
+      "id": "arxiv:2610.27851",
+      "title": "LaLa-World",
+      "type": "Research Paper",
+      "date": "2026-10-20",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.27851",
+      "pdf_url": "https://arxiv.org/pdf/2610.27851.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "VLA / Embodied",
+        "World-Action Models"
+      ],
+      "tags": [
+        "Latent world model",
+        "Language action"
+      ],
+      "discovered_on": "2026-10-21"
+    },
+    {
+      "id": "arxiv:2610.28594",
+      "title": "Learning the 4D World through Point Trajectory Forecasting",
+      "type": "Research Paper",
+      "date": "2026-10-20",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.28594",
+      "pdf_url": "https://arxiv.org/pdf/2610.28594.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "3D points",
+        "Multi-view"
+      ],
+      "discovered_on": "2026-10-21"
+    },
+    {
+      "id": "arxiv:2610.26903",
+      "title": "Beckmann World Models",
+      "type": "Research Paper",
+      "date": "2026-10-19",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.26903",
+      "pdf_url": "https://arxiv.org/pdf/2610.26903.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "Generative Modeling"
+      ],
+      "tags": [
+        "One-step",
+        "Future prediction"
+      ],
+      "discovered_on": "2026-10-21"
+    },
+    {
+      "id": "arxiv:2610.28313",
+      "title": "Towards Consistent Geospatial Representations",
+      "type": "Research Paper",
+      "date": "2026-10-20",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.28313",
+      "pdf_url": "https://arxiv.org/pdf/2610.28313.pdf",
+      "topics": [
+        "Geospatial AI",
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Earth observation",
+        "Representation alignment"
+      ],
+      "discovered_on": "2026-10-21"
+    },
+    {
+      "id": "arxiv:2610.27018",
+      "title": "Long-wave Infrared Polarimetric Remote Sensing Image Fusion",
+      "type": "Research Paper",
+      "date": "2026-10-19",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.27018",
+      "pdf_url": "https://arxiv.org/pdf/2610.27018.pdf",
+      "topics": [
+        "Geospatial AI"
+      ],
+      "tags": [
+        "Infrared",
+        "Sensor fusion"
+      ],
+      "discovered_on": "2026-10-21"
+    },
+    {
+      "id": "arxiv:2610.26995",
+      "title": "SPEM: Structure-Aware Procedural Memory",
+      "type": "Research Paper",
+      "date": "2026-10-19",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.26995",
+      "pdf_url": "https://arxiv.org/pdf/2610.26995.pdf",
+      "topics": [
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Skill DAG",
+        "Procedural memory"
+      ],
+      "discovered_on": "2026-10-21"
+    },
+    {
+      "id": "arxiv:2610.27234",
+      "title": "EGI-BENCH",
+      "type": "Research Paper",
+      "date": "2026-10-19",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.27234",
+      "pdf_url": "https://arxiv.org/pdf/2610.27234.pdf",
+      "topics": [
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "MCP",
+        "Agent evaluation"
+      ],
+      "discovered_on": "2026-10-21"
+    },
+    {
+      "id": "arxiv:2610.28386",
+      "title": "VisualEvolve",
+      "type": "Research Paper",
+      "date": "2026-10-20",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.28386",
+      "pdf_url": "https://arxiv.org/pdf/2610.28386.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Agentic VLM",
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Skill evolution",
+        "Training-free"
+      ],
+      "discovered_on": "2026-10-21"
+    },
+    {
+      "id": "arxiv:2610.28402",
+      "title": "StreamEval",
+      "type": "Research Paper",
+      "date": "2026-10-20",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.28402",
+      "pdf_url": "https://arxiv.org/pdf/2610.28402.pdf",
+      "topics": [
+        "Generative Modeling",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "Video generation",
+        "Benchmark"
+      ],
+      "discovered_on": "2026-10-21"
+    },
+    {
+      "id": "arxiv:2610.27782",
+      "title": "RoboJudge",
+      "type": "Research Paper",
+      "date": "2026-10-20",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.27782",
+      "pdf_url": "https://arxiv.org/pdf/2610.27782.pdf",
+      "topics": [
+        "Generative Modeling",
+        "VLA / Embodied"
+      ],
+      "tags": [
+        "Embodied video",
+        "Evaluation"
+      ],
+      "discovered_on": "2026-10-21"
+    },
+    {
+      "id": "arxiv:2610.28210",
+      "title": "Learn to Modify (SMART)",
+      "type": "Research Paper",
+      "date": "2026-10-20",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.28210",
+      "pdf_url": "https://arxiv.org/pdf/2610.28210.pdf",
+      "topics": [
+        "Generative Modeling",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Motion generation",
+        "Multi-agent"
+      ],
+      "discovered_on": "2026-10-21"
     }
   ]
 }
