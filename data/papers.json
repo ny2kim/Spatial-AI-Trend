@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
-  "updated_at": "2026-10-21",
+  "updated_at": "2026-10-22",
   "papers": [
     {
       "id": "arxiv:2609.38426",
@@ -2818,6 +2818,403 @@
         "Multi-agent"
       ],
       "discovered_on": "2026-10-21"
+    },
+    {
+      "id": "arxiv:2610.28776",
+      "title": "Complexity-Aware Surgical Video Reasoning Segmentation with Digital Twin and Context Memory",
+      "type": "Research Paper",
+      "date": "2026-10-20",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.28776",
+      "pdf_url": "https://arxiv.org/pdf/2610.28776.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Agentic VLM",
+        "Visual Memory"
+      ],
+      "tags": [
+        "Clinical video",
+        "Adaptive routing",
+        "Digital twin"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.28801",
+      "title": "JUICE: Unified Multimodal Modeling in Pretrained Representation Spaces",
+      "type": "Research Paper",
+      "date": "2026-10-20",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.28801",
+      "pdf_url": "https://arxiv.org/pdf/2610.28801.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Generative Modeling",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Joint flow matching",
+        "Multimodal generation"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.28806",
+      "title": "SAIL: A Learnable Generalisation of Spatial Autocorrelation over Graph-Structured Data",
+      "type": "Research Paper",
+      "date": "2026-10-20",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.28806",
+      "pdf_url": "https://arxiv.org/pdf/2610.28806.pdf",
+      "topics": [
+        "Geospatial AI",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Spatial autocorrelation",
+        "Graph representation"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.28880",
+      "title": "Real2Sem2Real: 3D Semantic Augmentations for Robot Learning from a Single Human RGB Demonstration",
+      "type": "Research Paper",
+      "date": "2026-10-20",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.28880",
+      "pdf_url": "https://arxiv.org/pdf/2610.28880.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Spatial Reasoning",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "RGB video",
+        "Simulation",
+        "Robot demonstrations"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.28987",
+      "title": "PerMIT: Securing Persistent Memory for LLM Agents via Machine-Checked Integrity Theorems and Scalable Community Trust",
+      "type": "Research Paper",
+      "date": "2026-10-20",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.28987",
+      "pdf_url": "https://arxiv.org/pdf/2610.28987.pdf",
+      "topics": [
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Memory integrity",
+        "Approval gates",
+        "Formal verification"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.29229",
+      "title": "Cache Locally, Recompute Selectively for Streaming Video Understanding",
+      "type": "Research Paper",
+      "date": "2026-10-21",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.29229",
+      "pdf_url": "https://arxiv.org/pdf/2610.29229.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Visual Memory"
+      ],
+      "tags": [
+        "FrameBlend",
+        "KV cache",
+        "Training-free"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.29231",
+      "title": "DisasterRoute: Evidence-Guided Dual-System Routing for Visual Disaster Question Answering",
+      "type": "Research Paper",
+      "date": "2026-10-21",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.29231",
+      "pdf_url": "https://arxiv.org/pdf/2610.29231.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Geospatial AI",
+        "Decision Models / System-One",
+        "Agentic VLM"
+      ],
+      "tags": [
+        "System-One",
+        "UAV imagery",
+        "Routing"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.29232",
+      "title": "Think-Capture: Active 3D Geometry Acquisition for Spatial Reasoning in Vision-Language Models",
+      "type": "Research Paper",
+      "date": "2026-10-21",
+      "year": 2026,
+      "venue": "WACV 2027 (accepted)",
+      "source_url": "https://arxiv.org/abs/2610.29232",
+      "pdf_url": "https://arxiv.org/pdf/2610.29232.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning",
+        "Multi-view VLM",
+        "Agentic VLM"
+      ],
+      "tags": [
+        "Active perception",
+        "3D toolkit",
+        "GRPO"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.29241",
+      "title": "Encoded but Unused: Bounding the Sources of VLM Errors",
+      "type": "Research Paper",
+      "date": "2026-10-21",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.29241",
+      "pdf_url": "https://arxiv.org/pdf/2610.29241.pdf",
+      "topics": [
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Visual evidence",
+        "Error attribution"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.29282",
+      "title": "Relational Geometry Forcing for World Action Models",
+      "type": "Research Paper",
+      "date": "2026-10-21",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.29282",
+      "pdf_url": "https://arxiv.org/pdf/2610.29282.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "3D geometry",
+        "Relational distillation"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.29642",
+      "title": "OpenEarth-OVS44: A Multimodal Remote Sensing Dataset for Open-Vocabulary Segmentation",
+      "type": "Research Paper",
+      "date": "2026-10-21",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.29642",
+      "pdf_url": "https://arxiv.org/pdf/2610.29642.pdf",
+      "topics": [
+        "Geospatial AI",
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "RGB-SAR",
+        "Dataset",
+        "Open-vocabulary"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.29716",
+      "title": "Reconstruction-Augmented Visuomotor Pre-Training of 3D-Grounded Bimanual Dexterity from RGB-Only Human Videos",
+      "type": "Research Paper",
+      "date": "2026-10-21",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.29716",
+      "pdf_url": "https://arxiv.org/pdf/2610.29716.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "SpatialDex",
+        "RGB-only",
+        "Bimanual"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.29730",
+      "title": "Post-hoc Epistemic Uncertainty for Vision-Language-Action Policies",
+      "type": "Research Paper",
+      "date": "2026-10-21",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.29730",
+      "pdf_url": "https://arxiv.org/pdf/2610.29730.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Uncertainty",
+        "Referral",
+        "SmolVLA"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.29822",
+      "title": "UserSWE: Evaluating Coding Agents in Multi-Turn Conversations with Dynamic Users",
+      "type": "Research Paper",
+      "date": "2026-10-21",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.29822",
+      "pdf_url": "https://arxiv.org/pdf/2610.29822.pdf",
+      "topics": [
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Coding agents",
+        "Benchmark",
+        "Multi-turn"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.29934",
+      "title": "ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination",
+      "type": "Research Paper",
+      "date": "2026-10-21",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.29934",
+      "pdf_url": "https://arxiv.org/pdf/2610.29934.pdf",
+      "topics": [
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Multi-agent",
+        "Latent communication"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.30007",
+      "title": "Multiclass Boundary Refinement with Neural Cellular Automata for Remote Sensing Land Cover Segmentation",
+      "type": "Research Paper",
+      "date": "2026-10-21",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.30007",
+      "pdf_url": "https://arxiv.org/pdf/2610.30007.pdf",
+      "topics": [
+        "Geospatial AI"
+      ],
+      "tags": [
+        "Remote sensing",
+        "Segmentation",
+        "Boundaries"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.30023",
+      "title": "RealMe: Immersive Volumetric Video from Minimal Captures",
+      "type": "Research Paper",
+      "date": "2026-10-21",
+      "year": 2026,
+      "venue": "SIGGRAPH Asia 2026 (conference paper)",
+      "source_url": "https://arxiv.org/abs/2610.30023",
+      "pdf_url": "https://arxiv.org/pdf/2610.30023.pdf",
+      "topics": [
+        "Generative Modeling",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "SIGGRAPH Asia",
+        "4D reconstruction"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.30036",
+      "title": "Attn-Forcing: Learning Full-Context Attention Proxies for Streaming Video Generation",
+      "type": "Research Paper",
+      "date": "2026-10-21",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.30036",
+      "pdf_url": "https://arxiv.org/pdf/2610.30036.pdf",
+      "topics": [
+        "Generative Modeling",
+        "World Models / Physical AI",
+        "Visual Memory"
+      ],
+      "tags": [
+        "Streaming video",
+        "Attention proxy"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.30047",
+      "title": "SWE-DIVE: Multi-Turn Coding Agent Evaluation with Dynamic User Simulation",
+      "type": "Research Paper",
+      "date": "2026-10-21",
+      "year": 2026,
+      "venue": "NeurIPS 2026 workshop (non-archival)",
+      "source_url": "https://arxiv.org/abs/2610.30047",
+      "pdf_url": "https://arxiv.org/pdf/2610.30047.pdf",
+      "topics": [
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Coding agents",
+        "Multi-turn",
+        "Workshop"
+      ],
+      "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.30089",
+      "title": "ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video",
+      "type": "Research Paper",
+      "date": "2026-10-21",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "source_url": "https://arxiv.org/abs/2610.30089",
+      "pdf_url": "https://arxiv.org/pdf/2610.30089.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Visual Memory",
+        "Agentic VLM"
+      ],
+      "tags": [
+        "Egocentric video",
+        "Proactive memory"
+      ],
+      "discovered_on": "2026-10-22"
     }
   ]
 }
