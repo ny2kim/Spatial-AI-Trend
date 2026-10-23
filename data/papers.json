@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
-  "updated_at": "2026-10-22",
+  "updated_at": "2026-10-23",
   "papers": [
     {
       "id": "arxiv:2609.38426",
@@ -3215,6 +3215,376 @@
         "Proactive memory"
       ],
       "discovered_on": "2026-10-22"
+    },
+    {
+      "id": "arxiv:2610.31494",
+      "title": "AgentVQA: A Unified Benchmark for Agentic Visual Understanding",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31494",
+      "pdf_url": "https://arxiv.org/pdf/2610.31494.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Agentic VLM",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "Agentic VLM",
+        "Spatial Reasoning",
+        "VLM",
+        "Agent Infrastructure"
+      ],
+      "discovered_on": "2026-10-23"
+    },
+    {
+      "id": "arxiv:2610.31670",
+      "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31670",
+      "pdf_url": "https://arxiv.org/pdf/2610.31670.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Spatial Reasoning",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "Spatial Reasoning",
+        "World Models / Physical AI",
+        "Robotics",
+        "World Model",
+        "VLM"
+      ],
+      "discovered_on": "2026-10-23"
+    },
+    {
+      "id": "arxiv:2610.31613",
+      "title": "Progress Probes P²: Lightweight Runtime Monitoring for Vision-Language-Action Models",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31613",
+      "pdf_url": "https://arxiv.org/pdf/2610.31613.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "Agentic Models / AI Agents",
+        "Robotics",
+        "Agent Infrastructure"
+      ],
+      "discovered_on": "2026-10-23"
+    },
+    {
+      "id": "arxiv:2610.31474",
+      "title": "Skeleton-Grounded Latent Action Model for Robot World Models",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31474",
+      "pdf_url": "https://arxiv.org/pdf/2610.31474.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models",
+        "Robotics",
+        "World Model"
+      ],
+      "discovered_on": "2026-10-23"
+    },
+    {
+      "id": "arxiv:2610.30991",
+      "title": "UniFlowWAM: A Unified World-Action Model with Visual Semantics and 4D Geometry",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.30991",
+      "pdf_url": "https://arxiv.org/pdf/2610.30991.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models",
+        "Spatial Reasoning",
+        "Robotics",
+        "World Model",
+        "VLM"
+      ],
+      "discovered_on": "2026-10-23"
+    },
+    {
+      "id": "arxiv:2610.31617",
+      "title": "DiffDreamer: Coupling World Models with Differentiable Simulation for Agile Quadrotor Control",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31617",
+      "pdf_url": "https://arxiv.org/pdf/2610.31617.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "VLA / Embodied"
+      ],
+      "tags": [
+        "World Models / Physical AI",
+        "VLA / Embodied",
+        "World Model",
+        "Robotics"
+      ],
+      "discovered_on": "2026-10-23"
+    },
+    {
+      "id": "arxiv:2610.31304",
+      "title": "Data-Driven Vision-Language Models for Remote Sensing: A Survey",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "IEEE Geoscience and Remote Sensing Magazine 2026",
+      "source_url": "https://arxiv.org/abs/2610.31304",
+      "pdf_url": "https://arxiv.org/pdf/2610.31304.pdf",
+      "topics": [
+        "Geospatial AI",
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Geospatial AI",
+        "VLM / LVLM",
+        "Remote Sensing",
+        "VLM"
+      ],
+      "discovered_on": "2026-10-23"
+    },
+    {
+      "id": "arxiv:2610.31121",
+      "title": "RGraph-Eval: Task-Grounded Scene Graphs for Evaluating Robot Video Generation",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31121",
+      "pdf_url": "https://arxiv.org/pdf/2610.31121.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "Generative Modeling",
+        "VLA / Embodied"
+      ],
+      "tags": [
+        "World Models / Physical AI",
+        "Generative Modeling",
+        "VLA / Embodied",
+        "World Model",
+        "Generative AI",
+        "Robotics"
+      ],
+      "discovered_on": "2026-10-23"
+    },
+    {
+      "id": "arxiv:2610.31376",
+      "title": "Certified Execution Harness for Agentic AI",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31376",
+      "pdf_url": "https://arxiv.org/pdf/2610.31376.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One",
+        "Agent Infrastructure"
+      ],
+      "discovered_on": "2026-10-23"
+    },
+    {
+      "id": "arxiv:2610.31372",
+      "title": "RIDAR: Safeguarding Research Integrity in Autonomous Research Agents",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31372",
+      "pdf_url": "https://arxiv.org/pdf/2610.31372.pdf",
+      "topics": [
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Agentic Models / AI Agents",
+        "Agent Infrastructure"
+      ],
+      "discovered_on": "2026-10-23"
+    },
+    {
+      "id": "arxiv:2610.31429",
+      "title": "PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31429",
+      "pdf_url": "https://arxiv.org/pdf/2610.31429.pdf",
+      "topics": [
+        "Generative Modeling",
+        "World Models / Physical AI",
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Generative Modeling",
+        "World Models / Physical AI",
+        "VLM / LVLM",
+        "Generative AI",
+        "World Model",
+        "VLM"
+      ],
+      "discovered_on": "2026-10-23"
+    },
+    {
+      "id": "arxiv:2610.31651",
+      "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31651",
+      "pdf_url": "https://arxiv.org/pdf/2610.31651.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Generative Modeling",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "Agentic Models / AI Agents",
+        "Generative Modeling",
+        "World Models / Physical AI",
+        "Agent Infrastructure",
+        "Generative AI",
+        "World Model"
+      ],
+      "discovered_on": "2026-10-23"
+    },
+    {
+      "id": "arxiv:2610.31671",
+      "title": "FlexPart: Image-to-3D Part Generation via Variable Granularity",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "NeurIPS 2026",
+      "source_url": "https://arxiv.org/abs/2610.31671",
+      "pdf_url": "https://arxiv.org/pdf/2610.31671.pdf",
+      "topics": [
+        "Generative Modeling",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Generative Modeling",
+        "Spatial Reasoning",
+        "Generative AI",
+        "VLM"
+      ],
+      "discovered_on": "2026-10-23"
+    },
+    {
+      "id": "arxiv:2610.31320",
+      "title": "Stream4D: Training-free Streaming 4D Reconstruction via Causal KV Cache",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "ACM Multimedia 2026",
+      "source_url": "https://arxiv.org/abs/2610.31320",
+      "pdf_url": "https://arxiv.org/pdf/2610.31320.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "Spatial Reasoning",
+        "Visual Memory"
+      ],
+      "tags": [
+        "World Models / Physical AI",
+        "Spatial Reasoning",
+        "Visual Memory",
+        "World Model",
+        "VLM"
+      ],
+      "discovered_on": "2026-10-23"
+    },
+    {
+      "id": "arxiv:2610.31641",
+      "title": "UniVOE: Interaction-Aware Universal Video Object Editing",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31641",
+      "pdf_url": "https://arxiv.org/pdf/2610.31641.pdf",
+      "topics": [
+        "Generative Modeling"
+      ],
+      "tags": [
+        "Generative Modeling",
+        "Generative AI"
+      ],
+      "discovered_on": "2026-10-23"
+    },
+    {
+      "id": "arxiv:2610.31649",
+      "title": "Gate3DGen: Selective Purification of Real-World Images for 3D Generation",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31649",
+      "pdf_url": "https://arxiv.org/pdf/2610.31649.pdf",
+      "topics": [
+        "Generative Modeling",
+        "Visual Search"
+      ],
+      "tags": [
+        "Generative Modeling",
+        "Visual Search",
+        "Generative AI",
+        "VLM"
+      ],
+      "discovered_on": "2026-10-23"
+    },
+    {
+      "id": "arxiv:2610.31650",
+      "title": "EpiSEM-Bench: Safety and Evidence Recovery in LLM Agents",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31650",
+      "pdf_url": "https://arxiv.org/pdf/2610.31650.pdf",
+      "topics": [
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Agentic Models / AI Agents",
+        "Agent Infrastructure"
+      ],
+      "discovered_on": "2026-10-23"
     }
   ]
 }
