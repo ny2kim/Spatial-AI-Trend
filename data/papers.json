@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
-  "updated_at": "2026-10-23",
+  "updated_at": "2026-10-25",
   "papers": [
     {
       "id": "arxiv:2609.38426",
@@ -3585,6 +3585,248 @@
         "Agent Infrastructure"
       ],
       "discovered_on": "2026-10-23"
+    },
+    {
+      "id": "arxiv:2610.31471",
+      "title": "Ask About the Right Moment: Training-Free Object Identity Reasoning for Video-Language Models",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31471",
+      "pdf_url": "https://arxiv.org/pdf/2610.31471.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Visual Memory",
+        "Agentic VLM"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "Visual Memory",
+        "Agentic VLM"
+      ],
+      "discovered_on": "2026-10-25"
+    },
+    {
+      "id": "arxiv:2610.31145",
+      "title": "RankAlign: Vision-Language Representation Alignment via Rank Transformation",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "NeurIPS 2026",
+      "source_url": "https://arxiv.org/abs/2610.31145",
+      "pdf_url": "https://arxiv.org/pdf/2610.31145.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Multimodal ICL"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "Multimodal ICL"
+      ],
+      "discovered_on": "2026-10-25"
+    },
+    {
+      "id": "arxiv:2610.31566",
+      "title": "CellTrack-Bench: Microscopic Cell Tracking Benchmark for Vision-Language Models",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31566",
+      "pdf_url": "https://arxiv.org/pdf/2610.31566.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Visual Memory",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "Visual Memory",
+        "Spatial Reasoning"
+      ],
+      "discovered_on": "2026-10-25"
+    },
+    {
+      "id": "arxiv:2610.31569",
+      "title": "Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31569",
+      "pdf_url": "https://arxiv.org/pdf/2610.31569.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World-Action Models",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "World-Action Models",
+        "World Models / Physical AI"
+      ],
+      "discovered_on": "2026-10-25"
+    },
+    {
+      "id": "arxiv:2610.31518",
+      "title": "SCOPE: Scene-graph Construction Optimized by Plan Error-correction for Robot Long-term Planning Datasets",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "IROS 2026",
+      "source_url": "https://arxiv.org/abs/2610.31518",
+      "pdf_url": "https://arxiv.org/pdf/2610.31518.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Spatial Reasoning",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "Spatial Reasoning",
+        "Agentic Models / AI Agents"
+      ],
+      "discovered_on": "2026-10-25"
+    },
+    {
+      "id": "arxiv:2610.31661",
+      "title": "OpenTac: An Open Ecosystem for Customizable, Scalable, and Transferable 3D Tactile Sensing",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31661",
+      "pdf_url": "https://arxiv.org/pdf/2610.31661.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "World Models / Physical AI"
+      ],
+      "discovered_on": "2026-10-25"
+    },
+    {
+      "id": "arxiv:2610.31640",
+      "title": "WorldForge V2: Eliciting Camera-Trajectory Alignment in Video Diffusion Models",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31640",
+      "pdf_url": "https://arxiv.org/pdf/2610.31640.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "Generative Modeling",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "World Models / Physical AI",
+        "Generative Modeling",
+        "Spatial Reasoning"
+      ],
+      "discovered_on": "2026-10-25"
+    },
+    {
+      "id": "arxiv:2610.31635",
+      "title": "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31635",
+      "pdf_url": "https://arxiv.org/pdf/2610.31635.pdf",
+      "topics": [
+        "Spatial Reasoning",
+        "World Models / Physical AI",
+        "Visual Memory"
+      ],
+      "tags": [
+        "Spatial Reasoning",
+        "World Models / Physical AI",
+        "Visual Memory"
+      ],
+      "discovered_on": "2026-10-25"
+    },
+    {
+      "id": "arxiv:2610.31521",
+      "title": "Jev-DLC: Decision-Level Continual Learning from Typed Feedback",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31521",
+      "pdf_url": "https://arxiv.org/pdf/2610.31521.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "discovered_on": "2026-10-25"
+    },
+    {
+      "id": "arxiv:2610.31461",
+      "title": "Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.31461",
+      "pdf_url": "https://arxiv.org/pdf/2610.31461.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "discovered_on": "2026-10-25"
+    },
+    {
+      "id": "arxiv:2610.27883",
+      "title": "SGLDet: Spectral-aware Global-Local Dynamic Modeling for Multispectral Aerial Object Detection",
+      "type": "Research Paper",
+      "date": "2026-10-20",
+      "year": 2026,
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing (Early Access, 2026)",
+      "source_url": "https://arxiv.org/abs/2610.27883",
+      "pdf_url": "https://arxiv.org/pdf/2610.27883.pdf",
+      "topics": [
+        "Geospatial AI",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Geospatial AI",
+        "Spatial Reasoning"
+      ],
+      "discovered_on": "2026-10-25"
+    },
+    {
+      "id": "arxiv:2610.31668",
+      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+      "type": "Research Paper",
+      "date": "2026-10-22",
+      "year": 2026,
+      "venue": "arXiv (survey)",
+      "source_url": "https://arxiv.org/abs/2610.31668",
+      "pdf_url": "https://arxiv.org/pdf/2610.31668.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "Generative Modeling",
+        "Visual Memory"
+      ],
+      "tags": [
+        "World Models / Physical AI",
+        "Generative Modeling",
+        "Visual Memory"
+      ],
+      "discovered_on": "2026-10-25"
     }
   ]
 }
