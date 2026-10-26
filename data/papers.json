@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
-  "updated_at": "2026-10-25",
+  "updated_at": "2026-10-26",
   "papers": [
     {
       "id": "arxiv:2609.38426",
@@ -3827,6 +3827,313 @@
         "Visual Memory"
       ],
       "discovered_on": "2026-10-25"
+    },
+    {
+      "id": "arxiv:2610.32977",
+      "title": "UniAction: Unified Action Conditioning for World Models",
+      "type": "Research Paper",
+      "date": "2026-10-23",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.32977",
+      "pdf_url": "https://arxiv.org/pdf/2610.32977.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "World-Action Models",
+        "VLA / Embodied",
+        "Generative Modeling"
+      ],
+      "tags": [
+        "World Models / Physical AI",
+        "World-Action Models",
+        "VLA / Embodied",
+        "Generative Modeling"
+      ],
+      "discovered_on": "2026-10-26"
+    },
+    {
+      "id": "arxiv:2610.32894",
+      "title": "LoCA: Enabling Multi-Modality in Geospatial Location Encoders",
+      "type": "Research Paper",
+      "date": "2026-10-23",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.32894",
+      "pdf_url": "https://arxiv.org/pdf/2610.32894.pdf",
+      "topics": [
+        "Geospatial AI",
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Geospatial AI",
+        "VLM / LVLM"
+      ],
+      "discovered_on": "2026-10-26"
+    },
+    {
+      "id": "arxiv:2610.32941",
+      "title": "If at First You Don't Succeed, Backtrack: Lightweight Recovery for Frozen VLAs",
+      "type": "Research Paper",
+      "date": "2026-10-23",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.32941",
+      "pdf_url": "https://arxiv.org/pdf/2610.32941.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "VLA / Embodied",
+        "Agentic Models / AI Agents"
+      ],
+      "discovered_on": "2026-10-26"
+    },
+    {
+      "id": "arxiv:2610.32965",
+      "title": "RynnUnify: Towards Unified Embodied Brain",
+      "type": "Research Paper",
+      "date": "2026-10-23",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.32965",
+      "pdf_url": "https://arxiv.org/pdf/2610.32965.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models",
+        "Agentic VLM"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models",
+        "Agentic VLM"
+      ],
+      "discovered_on": "2026-10-26"
+    },
+    {
+      "id": "arxiv:2610.32635",
+      "title": "EditJev: System One Routing for Image Editing Models",
+      "type": "Research Paper",
+      "date": "2026-10-23",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.32635",
+      "pdf_url": "https://arxiv.org/pdf/2610.32635.pdf",
+      "topics": [
+        "Decision Models / System-One",
+        "Agentic Models / AI Agents",
+        "Generative Modeling",
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Decision Models / System-One",
+        "Agentic Models / AI Agents",
+        "Generative Modeling",
+        "VLM / LVLM"
+      ],
+      "discovered_on": "2026-10-26"
+    },
+    {
+      "id": "arxiv:2610.32440",
+      "title": "PROVE: Probabilistic Visual Grounding via Patch-Level Evidence for Vision-Language Models",
+      "type": "Research Paper",
+      "date": "2026-10-23",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.32440",
+      "pdf_url": "https://arxiv.org/pdf/2610.32440.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning",
+        "Visual Search"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "Spatial Reasoning",
+        "Visual Search"
+      ],
+      "discovered_on": "2026-10-26"
+    },
+    {
+      "id": "arxiv:2610.32784",
+      "title": "Video-MemComp: Taylor-Guided Sensitivity-Aware Memory Management for Streaming Video Understanding",
+      "type": "Research Paper",
+      "date": "2026-10-23",
+      "year": 2026,
+      "venue": "ACM Multimedia 2026",
+      "source_url": "https://arxiv.org/abs/2610.32784",
+      "pdf_url": "https://arxiv.org/pdf/2610.32784.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Visual Memory",
+        "Recurrent VLM"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "Visual Memory",
+        "Recurrent VLM"
+      ],
+      "discovered_on": "2026-10-26"
+    },
+    {
+      "id": "arxiv:2610.32381",
+      "title": "UniWorld: A Unified World Model for Real-Time Visual World Simulation",
+      "type": "Research Paper",
+      "date": "2026-10-23",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.32381",
+      "pdf_url": "https://arxiv.org/pdf/2610.32381.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "Generative Modeling"
+      ],
+      "tags": [
+        "World Models / Physical AI",
+        "Generative Modeling"
+      ],
+      "discovered_on": "2026-10-26"
+    },
+    {
+      "id": "arxiv:2610.32738",
+      "title": "Agentic Hazard Mapper: Emulating Expert Map-Making with AI Agents for Risk Communication",
+      "type": "Research Paper",
+      "date": "2026-10-23",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.32738",
+      "pdf_url": "https://arxiv.org/pdf/2610.32738.pdf",
+      "topics": [
+        "Geospatial AI",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Geospatial AI",
+        "Agentic Models / AI Agents"
+      ],
+      "discovered_on": "2026-10-26"
+    },
+    {
+      "id": "arxiv:2610.32742",
+      "title": "Adaptive World-Models for Anomaly Recognition (AWARE): A Framework for Robot Dynamics Prediction and Introspection",
+      "type": "Research Paper",
+      "date": "2026-10-23",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.32742",
+      "pdf_url": "https://arxiv.org/pdf/2610.32742.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "VLA / Embodied"
+      ],
+      "tags": [
+        "World Models / Physical AI",
+        "VLA / Embodied"
+      ],
+      "discovered_on": "2026-10-26"
+    },
+    {
+      "id": "arxiv:2610.32813",
+      "title": "HarnessMM: Recursive Self-Improvement for Harness Token Efficiency",
+      "type": "Research Paper",
+      "date": "2026-10-23",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.32813",
+      "pdf_url": "https://arxiv.org/pdf/2610.32813.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "discovered_on": "2026-10-26"
+    },
+    {
+      "id": "arxiv:2610.32978",
+      "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+      "type": "Research Paper",
+      "date": "2026-10-23",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.32978",
+      "pdf_url": "https://arxiv.org/pdf/2610.32978.pdf",
+      "topics": [
+        "Generative Modeling",
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Generative Modeling",
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "Agentic Models / AI Agents"
+      ],
+      "discovered_on": "2026-10-26"
+    },
+    {
+      "id": "arxiv:2610.32752",
+      "title": "ActionRAG: Evidence-Refining Graph Diffusion for Long-Term Memory in LLM Agents",
+      "type": "Research Paper",
+      "date": "2026-10-23",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.32752",
+      "pdf_url": "https://arxiv.org/pdf/2610.32752.pdf",
+      "topics": [
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Agentic Models / AI Agents"
+      ],
+      "discovered_on": "2026-10-26"
+    },
+    {
+      "id": "arxiv:2610.32948",
+      "title": "Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models",
+      "type": "Research Paper",
+      "date": "2026-10-23",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.32948",
+      "pdf_url": "https://arxiv.org/pdf/2610.32948.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning",
+        "Generative Modeling"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "Spatial Reasoning",
+        "Generative Modeling"
+      ],
+      "discovered_on": "2026-10-26"
+    },
+    {
+      "id": "arxiv:2610.32890",
+      "title": "Closing the Modality Gap via Simplex-Constrained Representations",
+      "type": "Research Paper",
+      "date": "2026-10-23",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.32890",
+      "pdf_url": "https://arxiv.org/pdf/2610.32890.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Generative Modeling"
+      ],
+      "tags": [
+        "VLM / LVLM",
+        "Generative Modeling"
+      ],
+      "discovered_on": "2026-10-26"
     }
   ]
 }
