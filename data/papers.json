@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-27",
   "papers": [
     {
       "id": "arxiv:2609.38426",
@@ -4134,6 +4134,312 @@
         "Generative Modeling"
       ],
       "discovered_on": "2026-10-26"
+    },
+    {
+      "id": "arxiv:2610.35868",
+      "title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.35868",
+      "pdf_url": "https://arxiv.org/pdf/2610.35868.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Decision models",
+        "Retrieval",
+        "Training-free"
+      ],
+      "discovered_on": "2026-10-27"
+    },
+    {
+      "id": "arxiv:2610.35721",
+      "title": "Can JEV Support Clinical Trial Criteria Assessment?",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.35721",
+      "pdf_url": "https://arxiv.org/pdf/2610.35721.pdf",
+      "topics": [
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "JEV",
+        "Clinical decisions",
+        "Calibration"
+      ],
+      "discovered_on": "2026-10-27"
+    },
+    {
+      "id": "arxiv:2610.35823",
+      "title": "Back to Basics: A Skill-Centric Approach to Generalist Web Agents",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.35823",
+      "pdf_url": "https://arxiv.org/pdf/2610.35823.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Agentic VLM"
+      ],
+      "tags": [
+        "Browser agents",
+        "Skill learning",
+        "Benchmark"
+      ],
+      "discovered_on": "2026-10-27"
+    },
+    {
+      "id": "arxiv:2610.35690",
+      "title": "EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.35690",
+      "pdf_url": "https://arxiv.org/pdf/2610.35690.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Agent router",
+        "On-policy distillation",
+        "Cost optimization"
+      ],
+      "discovered_on": "2026-10-27"
+    },
+    {
+      "id": "arxiv:2610.35832",
+      "title": "Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.35832",
+      "pdf_url": "https://arxiv.org/pdf/2610.35832.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Agentic VLM",
+        "World-Action Models"
+      ],
+      "tags": [
+        "Embodied evaluation",
+        "Agent harness",
+        "VLA"
+      ],
+      "discovered_on": "2026-10-27"
+    },
+    {
+      "id": "arxiv:2610.35850",
+      "title": "OSWAM: An Effective World Action Model with One-Step Action Generation",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.35850",
+      "pdf_url": "https://arxiv.org/pdf/2610.35850.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models"
+      ],
+      "tags": [
+        "Robot actions",
+        "One-step diffusion",
+        "Low latency"
+      ],
+      "discovered_on": "2026-10-27"
+    },
+    {
+      "id": "arxiv:2610.35806",
+      "title": "Does VGGT Know What It Does Not Know?",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.35806",
+      "pdf_url": "https://arxiv.org/pdf/2610.35806.pdf",
+      "topics": [
+        "Spatial Reasoning",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "3D geometry",
+        "Multi-view",
+        "Uncertainty"
+      ],
+      "discovered_on": "2026-10-27"
+    },
+    {
+      "id": "arxiv:2610.35229",
+      "title": "Joint Latent Reasoning and Observation for Agentic Video Understanding",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.35229",
+      "pdf_url": "https://arxiv.org/pdf/2610.35229.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Agentic VLM",
+        "Visual Search"
+      ],
+      "tags": [
+        "Video agents",
+        "Evidence selection",
+        "Latent communication"
+      ],
+      "discovered_on": "2026-10-27"
+    },
+    {
+      "id": "arxiv:2610.35066",
+      "title": "MemVLN: Streaming Episodic Memory for Vision-Language Navigation",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.35066",
+      "pdf_url": "https://arxiv.org/pdf/2610.35066.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Visual Memory",
+        "VLA / Embodied"
+      ],
+      "tags": [
+        "Navigation",
+        "Episodic memory",
+        "Streaming video"
+      ],
+      "discovered_on": "2026-10-27"
+    },
+    {
+      "id": "arxiv:2610.35450",
+      "title": "OBB-PBD: Extending Parallel Box Decoding to Oriented Bounding Boxes for Referring Expression Grounding in Aerial Imagery",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "Remote Sensing 18(20), 3535 (2026)",
+      "source_url": "https://arxiv.org/abs/2610.35450",
+      "pdf_url": "https://arxiv.org/pdf/2610.35450.pdf",
+      "topics": [
+        "Geospatial AI",
+        "VLM / LVLM",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Aerial imagery",
+        "Visual grounding",
+        "Oriented boxes"
+      ],
+      "discovered_on": "2026-10-27"
+    },
+    {
+      "id": "arxiv:2610.35854",
+      "title": "FL4N: Feed-forward Latent Model for 4D Novel View Synthesis",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.35854",
+      "pdf_url": "https://arxiv.org/pdf/2610.35854.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "Generative Modeling",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "4D reconstruction",
+        "Dynamic scenes",
+        "Novel view"
+      ],
+      "discovered_on": "2026-10-27"
+    },
+    {
+      "id": "arxiv:2610.35522",
+      "title": "Generative Structure from Motion with Native 3D Diffusion",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "NeurIPS 2026",
+      "source_url": "https://arxiv.org/abs/2610.35522",
+      "pdf_url": "https://arxiv.org/pdf/2610.35522.pdf",
+      "topics": [
+        "Generative Modeling",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "3D diffusion",
+        "Multi-view",
+        "Camera pose"
+      ],
+      "discovered_on": "2026-10-27"
+    },
+    {
+      "id": "arxiv:2610.35594",
+      "title": "Beyond Distribution Matching: Self-Supervised Representation Forcing for Few-Step Video Generation",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "NeurIPS 2026",
+      "source_url": "https://arxiv.org/abs/2610.35594",
+      "pdf_url": "https://arxiv.org/pdf/2610.35594.pdf",
+      "topics": [
+        "Generative Modeling",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "Video diffusion",
+        "Distillation",
+        "Few-step generation"
+      ],
+      "discovered_on": "2026-10-27"
+    },
+    {
+      "id": "arxiv:2610.35864",
+      "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.35864",
+      "pdf_url": "https://arxiv.org/pdf/2610.35864.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Generative Modeling",
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Multimodal agents",
+        "Video generation",
+        "Benchmark"
+      ],
+      "discovered_on": "2026-10-27"
+    },
+    {
+      "id": "arxiv:2610.35684",
+      "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.35684",
+      "pdf_url": "https://arxiv.org/pdf/2610.35684.pdf",
+      "topics": [
+        "Generative Modeling",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Multi-view images",
+        "Video generation",
+        "Subject consistency"
+      ],
+      "discovered_on": "2026-10-27"
     }
   ]
 }
