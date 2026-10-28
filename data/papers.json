@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-10-28",
   "papers": [
     {
       "id": "arxiv:2609.38426",
@@ -4440,6 +4440,358 @@
         "Subject consistency"
       ],
       "discovered_on": "2026-10-27"
+    },
+    {
+      "id": "arxiv:2610.36022",
+      "title": "Learning and Reasoning with Geometry: How Generation Helps Spatial Understanding",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.36022",
+      "pdf_url": "https://arxiv.org/pdf/2610.36022.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning",
+        "Generative Modeling"
+      ],
+      "tags": [
+        "GeoUG",
+        "Depth generation",
+        "Adaptive reasoning"
+      ],
+      "discovered_on": "2026-10-28"
+    },
+    {
+      "id": "arxiv:2610.36011",
+      "title": "E0.5: From Reconstructive to Future-Predictive 3D Foundations for Robotic World-Action Modeling",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.36011",
+      "pdf_url": "https://arxiv.org/pdf/2610.36011.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "3D foundation",
+        "Future geometry",
+        "Robotics"
+      ],
+      "discovered_on": "2026-10-28"
+    },
+    {
+      "id": "arxiv:2610.36068",
+      "title": "Rollback: Experience Backtracking in World Models for Policy Improvement",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.36068",
+      "pdf_url": "https://arxiv.org/pdf/2610.36068.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models"
+      ],
+      "tags": [
+        "Counterfactual",
+        "Robot policy",
+        "World models"
+      ],
+      "discovered_on": "2026-10-28"
+    },
+    {
+      "id": "arxiv:2610.36077",
+      "title": "The Trinity: Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.36077",
+      "pdf_url": "https://arxiv.org/pdf/2610.36077.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Agentic VLM",
+        "VLA / Embodied",
+        "Generative Modeling"
+      ],
+      "tags": [
+        "Harness evolution",
+        "Capability router",
+        "Real2Sim2Real"
+      ],
+      "discovered_on": "2026-10-28"
+    },
+    {
+      "id": "arxiv:2610.36188",
+      "title": "Skill Dreaming: Evolving Repository Skills through Pull Request Streams",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.36188",
+      "pdf_url": "https://arxiv.org/pdf/2610.36188.pdf",
+      "topics": [
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Coding agents",
+        "Skills",
+        "Pull requests"
+      ],
+      "discovered_on": "2026-10-28"
+    },
+    {
+      "id": "arxiv:2610.36444",
+      "title": "RouteDRAG: Learning to Route and Control Agentic Execution for Multimodal Document RAG",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.36444",
+      "pdf_url": "https://arxiv.org/pdf/2610.36444.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "VLM / LVLM",
+        "Visual Search"
+      ],
+      "tags": [
+        "Routing",
+        "Multimodal RAG",
+        "Document QA"
+      ],
+      "discovered_on": "2026-10-28"
+    },
+    {
+      "id": "arxiv:2610.36462",
+      "title": "ClusterSplat: Semantic Cluster Selection for 3D Visual Grounding in Gaussian Splatting",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "NeurIPS 2026 Spotlight",
+      "source_url": "https://arxiv.org/abs/2610.36462",
+      "pdf_url": "https://arxiv.org/pdf/2610.36462.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning",
+        "Visual Search"
+      ],
+      "tags": [
+        "3D grounding",
+        "Gaussian splatting",
+        "NeurIPS 2026"
+      ],
+      "discovered_on": "2026-10-28"
+    },
+    {
+      "id": "arxiv:2610.36466",
+      "title": "Nemotron-Labs-Diffusion-Uni: Elastic Self-Refining Unified Diffusion LLM with Cross-Paradigm On-Policy Distillation",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.36466",
+      "pdf_url": "https://arxiv.org/pdf/2610.36466.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Generative Modeling"
+      ],
+      "tags": [
+        "Discrete diffusion",
+        "Image generation",
+        "NVIDIA"
+      ],
+      "discovered_on": "2026-10-28"
+    },
+    {
+      "id": "arxiv:2610.36729",
+      "title": "Hy-Nomas: Towards Free-form Interactive World Generation",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "arXiv Technical Report",
+      "source_url": "https://arxiv.org/abs/2610.36729",
+      "pdf_url": "https://arxiv.org/pdf/2610.36729.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "Generative Modeling"
+      ],
+      "tags": [
+        "Interactive world",
+        "Video diffusion",
+        "Camera control"
+      ],
+      "discovered_on": "2026-10-28"
+    },
+    {
+      "id": "arxiv:2610.36823",
+      "title": "TAPESTRY: A Single Backbone for Video Generation and Robot Control",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "CoRL 2026",
+      "source_url": "https://arxiv.org/abs/2610.36823",
+      "pdf_url": "https://arxiv.org/pdf/2610.36823.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models",
+        "Generative Modeling"
+      ],
+      "tags": [
+        "Video diffusion",
+        "Action tokens",
+        "CoRL 2026"
+      ],
+      "discovered_on": "2026-10-28"
+    },
+    {
+      "id": "arxiv:2610.37000",
+      "title": "GPA-VGGT: Geometry-Preserving Acceleration of VGGT",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "WACV 2027",
+      "source_url": "https://arxiv.org/abs/2610.37000",
+      "pdf_url": "https://arxiv.org/pdf/2610.37000.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning",
+        "Multi-view VLM"
+      ],
+      "tags": [
+        "Training-free",
+        "VGGT",
+        "3D geometry"
+      ],
+      "discovered_on": "2026-10-28"
+    },
+    {
+      "id": "arxiv:2610.37021",
+      "title": "Ground-to-Satellite Knowledge Distillation for Crop Classification under Temporal and Geographic Shift",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.37021",
+      "pdf_url": "https://arxiv.org/pdf/2610.37021.pdf",
+      "topics": [
+        "Geospatial AI",
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Satellite",
+        "CLIP",
+        "Cross-view distillation"
+      ],
+      "discovered_on": "2026-10-28"
+    },
+    {
+      "id": "arxiv:2610.37037",
+      "title": "Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.37037",
+      "pdf_url": "https://arxiv.org/pdf/2610.37037.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning",
+        "Agentic VLM"
+      ],
+      "tags": [
+        "EvidenceConnect",
+        "RLVR",
+        "Visual grounding"
+      ],
+      "discovered_on": "2026-10-28"
+    },
+    {
+      "id": "arxiv:2610.37545",
+      "title": "GroundControl: Satellite-Conditioned Multi-View Diffusion for Reconstruction-Free Novel View Synthesis",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "WACV 2027",
+      "source_url": "https://arxiv.org/abs/2610.37545",
+      "pdf_url": "https://arxiv.org/pdf/2610.37545.pdf",
+      "topics": [
+        "Geospatial AI",
+        "Generative Modeling",
+        "Multi-view VLM",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Satellite",
+        "Street view",
+        "Novel view synthesis"
+      ],
+      "discovered_on": "2026-10-28"
+    },
+    {
+      "id": "arxiv:2610.37566",
+      "title": "ReferStream: Interactive Subject Injection for Streaming Video Generation",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.37566",
+      "pdf_url": "https://arxiv.org/pdf/2610.37566.pdf",
+      "topics": [
+        "Generative Modeling",
+        "Visual Memory"
+      ],
+      "tags": [
+        "Training-free",
+        "Streaming video",
+        "KV cache"
+      ],
+      "discovered_on": "2026-10-28"
+    },
+    {
+      "id": "arxiv:2610.37461",
+      "title": "Concordat: Typed Sessions for LLM Agents",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.37461",
+      "pdf_url": "https://arxiv.org/pdf/2610.37461.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Approval gates",
+        "Typestate",
+        "Agent control plane"
+      ],
+      "discovered_on": "2026-10-28"
+    },
+    {
+      "id": "arxiv:2610.36419",
+      "title": "SpeeDiff: Scalable Pixel-Anchored End-to-End Latent Diffusion Model",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "CVPR 2026",
+      "source_url": "https://arxiv.org/abs/2610.36419",
+      "pdf_url": "https://arxiv.org/pdf/2610.36419.pdf",
+      "topics": [
+        "Generative Modeling"
+      ],
+      "tags": [
+        "Latent diffusion",
+        "CVPR 2026",
+        "Image generation"
+      ],
+      "discovered_on": "2026-10-28"
     }
   ]
 }
