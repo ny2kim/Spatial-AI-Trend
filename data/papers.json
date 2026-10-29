@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
-  "updated_at": "2026-10-28",
+  "updated_at": "2026-10-29",
   "papers": [
     {
       "id": "arxiv:2609.38426",
@@ -4792,6 +4792,261 @@
         "Image generation"
       ],
       "discovered_on": "2026-10-28"
+    },
+    {
+      "id": "arxiv:2610.37019",
+      "title": "V-LUMEN: Visual Lookup Memory for Embedding Scaling in Vision-Language Models",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "NeurIPS 2026",
+      "source_url": "https://arxiv.org/abs/2610.37019",
+      "pdf_url": "https://arxiv.org/pdf/2610.37019.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Visual Memory"
+      ],
+      "tags": [
+        "Nonparametric lookup",
+        "Spatial hashing",
+        "NeurIPS 2026"
+      ],
+      "discovered_on": "2026-10-29"
+    },
+    {
+      "id": "arxiv:2610.36986",
+      "title": "LearnPrunerV2: Learnable Progressive Token Pruning for Vision-Language Models",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "ACM Multimedia 2026",
+      "source_url": "https://arxiv.org/abs/2610.36986",
+      "pdf_url": "https://arxiv.org/pdf/2610.36986.pdf",
+      "topics": [
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Token pruning",
+        "Inference efficiency",
+        "ACM MM 2026"
+      ],
+      "discovered_on": "2026-10-29"
+    },
+    {
+      "id": "arxiv:2610.37219",
+      "title": "Vision-Language-Action or World-Action? Just Action Models",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.37219",
+      "pdf_url": "https://arxiv.org/pdf/2610.37219.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models"
+      ],
+      "tags": [
+        "JAM",
+        "Foresight",
+        "Robotics"
+      ],
+      "discovered_on": "2026-10-29"
+    },
+    {
+      "id": "arxiv:2610.37381",
+      "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.37381",
+      "pdf_url": "https://arxiv.org/pdf/2610.37381.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models"
+      ],
+      "tags": [
+        "Physical dynamics",
+        "Action prediction"
+      ],
+      "discovered_on": "2026-10-29"
+    },
+    {
+      "id": "arxiv:2610.37378",
+      "title": "VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.37378",
+      "pdf_url": "https://arxiv.org/pdf/2610.37378.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "Safety",
+        "RL",
+        "Execution gating"
+      ],
+      "discovered_on": "2026-10-29"
+    },
+    {
+      "id": "arxiv:2610.36848",
+      "title": "Evolving Agent Teams",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "NeurIPS 2026 (repository claim)",
+      "source_url": "https://arxiv.org/abs/2610.36848",
+      "pdf_url": "https://arxiv.org/pdf/2610.36848.pdf",
+      "topics": [
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Coding agents",
+        "Multi-agent",
+        "Team evolution"
+      ],
+      "discovered_on": "2026-10-29"
+    },
+    {
+      "id": "arxiv:2610.35966",
+      "title": "EMMA: Structured Episodic Memory for Multi-Agent Workflow Synthesis",
+      "type": "Research Paper",
+      "date": "2026-10-25",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.35966",
+      "pdf_url": "https://arxiv.org/pdf/2610.35966.pdf",
+      "topics": [
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Agent memory",
+        "Skills",
+        "Workflow synthesis"
+      ],
+      "discovered_on": "2026-10-29"
+    },
+    {
+      "id": "arxiv:2610.35959",
+      "title": "AgentBaton: Efficient Model Collaboration in Agentic Tasks",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.35959",
+      "pdf_url": "https://arxiv.org/pdf/2610.35959.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Model routing",
+        "Handoff",
+        "Cost"
+      ],
+      "discovered_on": "2026-10-29"
+    },
+    {
+      "id": "arxiv:2610.36006",
+      "title": "MedJev: Evaluating Zero-Shot System-One Decision Making in Medicine",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.36006",
+      "pdf_url": "https://arxiv.org/pdf/2610.36006.pdf",
+      "topics": [
+        "Decision Models / System-One",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Jev",
+        "Medical decisions",
+        "Calibration"
+      ],
+      "discovered_on": "2026-10-29"
+    },
+    {
+      "id": "arxiv:2610.36877",
+      "title": "GUI-JEPA: Candidate-Conditioned JEPA Latents as a Fast Action Policy for Mobile GUI Agents",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.36877",
+      "pdf_url": "https://arxiv.org/pdf/2610.36877.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "VLM / LVLM",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "GUI agents",
+        "Latent action scoring"
+      ],
+      "discovered_on": "2026-10-29"
+    },
+    {
+      "id": "arxiv:2610.35987",
+      "title": "PROBE: Frontier Coding Agents Find Different Bugs Than Maintainers Fix",
+      "type": "Research Paper",
+      "date": "2026-10-26",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.35987",
+      "pdf_url": "https://arxiv.org/pdf/2610.35987.pdf",
+      "topics": [
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Coding-agent evaluation",
+        "Bug discovery"
+      ],
+      "discovered_on": "2026-10-29"
+    },
+    {
+      "id": "arxiv:2606.25312",
+      "title": "LEVIRDet: A Million-Scale 159-Category Dataset and Foundation Model for Universal Remote Sensing Object Detection",
+      "type": "High-impact recent paper",
+      "date": "2026-06-24",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2606.25312",
+      "pdf_url": "https://arxiv.org/pdf/2606.25312.pdf",
+      "topics": [
+        "Geospatial AI",
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Remote sensing",
+        "Dataset",
+        "159 categories"
+      ],
+      "discovered_on": "2026-10-29"
+    },
+    {
+      "id": "arxiv:2610.37056",
+      "title": "Quantized Edge Inference of a Self-Supervised SAR-Optical Encoder on Commodity x86 Hardware",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.37056",
+      "pdf_url": "https://arxiv.org/pdf/2610.37056.pdf",
+      "topics": [
+        "Geospatial AI"
+      ],
+      "tags": [
+        "SAR",
+        "Optical",
+        "Edge inference"
+      ],
+      "discovered_on": "2026-10-29"
     }
   ]
 }
