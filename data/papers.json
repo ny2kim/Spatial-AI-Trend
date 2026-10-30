@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Public metadata corpus for Research OS trend calculations. Contains public paper metadata only; no private notes or reading state.",
-  "updated_at": "2026-10-29",
+  "updated_at": "2026-10-30",
   "papers": [
     {
       "id": "arxiv:2609.38426",
@@ -5047,6 +5047,375 @@
         "Edge inference"
       ],
       "discovered_on": "2026-10-29"
+    },
+    {
+      "id": "arxiv:2610.37732",
+      "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.37732",
+      "pdf_url": "https://arxiv.org/pdf/2610.37732.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "System-One / System-Two",
+        "Training-free",
+        "Selective reasoning"
+      ],
+      "discovered_on": "2026-10-30"
+    },
+    {
+      "id": "arxiv:2610.38926",
+      "title": "OneScene-Bench: Do Vision-Language Models Integrate Evidence Across Views?",
+      "type": "Research Paper",
+      "date": "2026-10-28",
+      "year": 2026,
+      "venue": "NeurIPS 2026 LM4RWD Workshop",
+      "source_url": "https://arxiv.org/abs/2610.38926",
+      "pdf_url": "https://arxiv.org/pdf/2610.38926.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Multi-view VLM",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Multi-view evaluation",
+        "Cross-view correspondence",
+        "Workshop"
+      ],
+      "discovered_on": "2026-10-30"
+    },
+    {
+      "id": "arxiv:2610.39639",
+      "title": "Where Do Vision Language Models Fail at 3D Reasoning? (BedBench)",
+      "type": "Research Paper",
+      "date": "2026-10-29",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.39639",
+      "pdf_url": "https://arxiv.org/pdf/2610.39639.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "3D benchmark",
+        "Evidence dependence",
+        "Failure analysis"
+      ],
+      "discovered_on": "2026-10-30"
+    },
+    {
+      "id": "arxiv:2610.39609",
+      "title": "DiFuse: Fusing Native Diffusion Representations for Spatial Reasoning in Unified Multimodal Models",
+      "type": "Research Paper",
+      "date": "2026-10-29",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.39609",
+      "pdf_url": "https://arxiv.org/pdf/2610.39609.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Spatial Reasoning",
+        "Generative Modeling"
+      ],
+      "tags": [
+        "Diffusion features",
+        "Unified multimodal",
+        "Spatial reasoning"
+      ],
+      "discovered_on": "2026-10-30"
+    },
+    {
+      "id": "arxiv:2610.38158",
+      "title": "REEL: Same Frames, Different Answers and Different Costs",
+      "type": "Research Paper",
+      "date": "2026-10-28",
+      "year": 2026,
+      "venue": "WACV 2027 — Datasets and Evaluation",
+      "source_url": "https://arxiv.org/abs/2610.38158",
+      "pdf_url": "https://arxiv.org/pdf/2610.38158.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Visual Memory"
+      ],
+      "tags": [
+        "Video memory",
+        "KV cache",
+        "Evaluation"
+      ],
+      "discovered_on": "2026-10-30"
+    },
+    {
+      "id": "arxiv:2610.40131",
+      "title": "VideoMemBench: How Well Do MLLMs Remember in Video Conversations?",
+      "type": "Research Paper",
+      "date": "2026-10-29",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.40131",
+      "pdf_url": "https://arxiv.org/pdf/2610.40131.pdf",
+      "topics": [
+        "VLM / LVLM",
+        "Visual Memory"
+      ],
+      "tags": [
+        "Long-video",
+        "Multi-turn QA",
+        "Benchmark"
+      ],
+      "discovered_on": "2026-10-30"
+    },
+    {
+      "id": "arxiv:2610.39287",
+      "title": "OpenFlyV2: An Onboard Vision-Language-Action Model for Aerial Perception and Navigation",
+      "type": "Research Paper",
+      "date": "2026-10-29",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.39287",
+      "pdf_url": "https://arxiv.org/pdf/2610.39287.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "VLM / LVLM",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Aerial robotics",
+        "On-device",
+        "Navigation"
+      ],
+      "discovered_on": "2026-10-30"
+    },
+    {
+      "id": "arxiv:2610.40016",
+      "title": "LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks",
+      "type": "Research Paper",
+      "date": "2026-10-29",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.40016",
+      "pdf_url": "https://arxiv.org/pdf/2610.40016.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Agentic Models / AI Agents",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "Training-free harness",
+        "Task verification",
+        "Failure recovery"
+      ],
+      "discovered_on": "2026-10-30"
+    },
+    {
+      "id": "arxiv:2610.39446",
+      "title": "Ask to Evolve: A Unified Harness for Lifelong Embodied Navigation with Hybrid Action Space and Persistent Memory",
+      "type": "Research Paper",
+      "date": "2026-10-29",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.39446",
+      "pdf_url": "https://arxiv.org/pdf/2610.39446.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "Agentic VLM",
+        "Visual Memory"
+      ],
+      "tags": [
+        "EvoLife",
+        "Persistent spatial memory",
+        "Active interaction"
+      ],
+      "discovered_on": "2026-10-30"
+    },
+    {
+      "id": "arxiv:2610.40373",
+      "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
+      "type": "Research Paper",
+      "date": "2026-10-29",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.40373",
+      "pdf_url": "https://arxiv.org/pdf/2610.40373.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI",
+        "World-Action Models"
+      ],
+      "tags": [
+        "Future prediction",
+        "Action-guided retrieval",
+        "Latent world"
+      ],
+      "discovered_on": "2026-10-30"
+    },
+    {
+      "id": "arxiv:2610.37818",
+      "title": "GOFish: Full Field-of-View Gaussian Splatting and Mesh Extraction",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.37818",
+      "pdf_url": "https://arxiv.org/pdf/2610.37818.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "Generative Modeling",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "3D Gaussian Splatting",
+        "Digital twins",
+        "Mesh"
+      ],
+      "discovered_on": "2026-10-30"
+    },
+    {
+      "id": "arxiv:2610.38162",
+      "title": "Neighbourhood Shortcuts in Building Damage Assessment from Satellite Imagery",
+      "type": "Research Paper",
+      "date": "2026-10-28",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.38162",
+      "pdf_url": "https://arxiv.org/pdf/2610.38162.pdf",
+      "topics": [
+        "Geospatial AI",
+        "Spatial Reasoning"
+      ],
+      "tags": [
+        "Satellite imagery",
+        "Disaster assessment",
+        "Shortcut learning"
+      ],
+      "discovered_on": "2026-10-30"
+    },
+    {
+      "id": "arxiv:2610.40455",
+      "title": "A Unified Benchmark for Aerial-Enhanced Autonomous Driving: The KITScenes Aerial Dataset",
+      "type": "Research Paper",
+      "date": "2026-10-29",
+      "year": 2026,
+      "venue": "WACV 2027",
+      "source_url": "https://arxiv.org/abs/2610.40455",
+      "pdf_url": "https://arxiv.org/pdf/2610.40455.pdf",
+      "topics": [
+        "Geospatial AI",
+        "Spatial Reasoning",
+        "VLA / Embodied"
+      ],
+      "tags": [
+        "Aerial-ground fusion",
+        "HD mapping",
+        "Cross-view localization"
+      ],
+      "discovered_on": "2026-10-30"
+    },
+    {
+      "id": "arxiv:2610.39948",
+      "title": "UniRA: Unified Representation Alignment and Auto-Encoding for Efficient Diffusion Generation",
+      "type": "Research Paper",
+      "date": "2026-10-29",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.39948",
+      "pdf_url": "https://arxiv.org/pdf/2610.39948.pdf",
+      "topics": [
+        "Generative Modeling",
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Diffusion transformer",
+        "Representation alignment",
+        "Tokenizer"
+      ],
+      "discovered_on": "2026-10-30"
+    },
+    {
+      "id": "arxiv:2610.38425",
+      "title": "IntReal: A Real-World Dataset and Benchmark for Multimodal Interleaved Generation",
+      "type": "Research Paper",
+      "date": "2026-10-28",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.38425",
+      "pdf_url": "https://arxiv.org/pdf/2610.38425.pdf",
+      "topics": [
+        "Generative Modeling",
+        "VLM / LVLM"
+      ],
+      "tags": [
+        "Interleaved text-image",
+        "100K dataset",
+        "Benchmark"
+      ],
+      "discovered_on": "2026-10-30"
+    },
+    {
+      "id": "arxiv:2610.40339",
+      "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
+      "type": "Research Paper",
+      "date": "2026-10-29",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.40339",
+      "pdf_url": "https://arxiv.org/pdf/2610.40339.pdf",
+      "topics": [
+        "World Models / Physical AI",
+        "Generative Modeling",
+        "Agentic Models / AI Agents"
+      ],
+      "tags": [
+        "Interactive world model",
+        "Agentic game state",
+        "Video generation"
+      ],
+      "discovered_on": "2026-10-30"
+    },
+    {
+      "id": "arxiv:2610.39109",
+      "title": "PCM: A Proof-Carrying Message Protocol for Verifiable Multi-Agent Communication",
+      "type": "Research Paper",
+      "date": "2026-10-29",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.39109",
+      "pdf_url": "https://arxiv.org/pdf/2610.39109.pdf",
+      "topics": [
+        "Agentic Models / AI Agents",
+        "Decision Models / System-One"
+      ],
+      "tags": [
+        "Agent security",
+        "MCP / A2A",
+        "Verifiable approvals"
+      ],
+      "discovered_on": "2026-10-30"
+    },
+    {
+      "id": "arxiv:2610.37799",
+      "title": "DexSuite: An All-in-One Framework for Dexterous Manipulation Across Arms, Hands, and Tasks",
+      "type": "Research Paper",
+      "date": "2026-10-27",
+      "year": 2026,
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.37799",
+      "pdf_url": "https://arxiv.org/pdf/2610.37799.pdf",
+      "topics": [
+        "VLA / Embodied",
+        "World Models / Physical AI"
+      ],
+      "tags": [
+        "Robotics simulator",
+        "Dexterous manipulation",
+        "Dataset"
+      ],
+      "discovered_on": "2026-10-30"
     }
   ]
 }
